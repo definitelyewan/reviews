@@ -355,6 +355,86 @@ const data = {
           "For a set up season there’s one spicy multi year political drama"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BMjk2NjgzMTEtYWViZS00NTMyLWFjMzctODczYmQzNzk2NjIwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Nimona",
+        "score": "5/10",
+        "bullets": [
+          "perfectly fine everything is just perfectly fine"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDJkNzQzODQtM2Q0MC00MWE4LTlkMjMtNWZmZWQyMTYwZGRmXkEyXkFqcGdeQXVyMTY1MTAyOTk1._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Oppenheimer",
+        "score": "8/10",
+        "bullets": [
+          "the sounds and explosions in this movie are nuts",
+          "I think the whole political part at the end could of been condensed down into just spark notes",
+          "The entire movie up until they test the bomb is gas",
+          "Could of used the spark for the context at the beginning too",
+          "Bro says i’’ve become death while bangin 💀"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Barbie",
+        "score": "6/10",
+        "bullets": [
+          "Probably could of been a little shorter",
+          "The barbie world is made so well and looks so good",
+          "Some of the jokes are really funny but some try a little to hard and fall flat",
+          "Poor ken man, bros so down bad"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYzQ3MjNjMGEtNjU1OS00OTc0LWIyZTMtYWJhOWE3MTkwMjVkXkEyXkFqcGdeQXVyNDYwMTkwNTI@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Dhoom 2",
+        "score": "3/10",
+        "bullets": [
+          "way way to long",
+          "Could drop some characters and the movie would be the same",
+          "You can tell if a character is going to stay in the movie if they have a 11/10 physique",
+          "There are 5 different points where everyone breaks into song and dance but these are not memorable"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNTAyYmYxOTktNjNmZS00ZTZlLWI2YjUtM2RlZTlkM2ZiZjdhXkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Asteroid City",
+        "score": "7/10",
+        "bullets": [
+          "I get that it’s a play but all these scene screens are irrelevant",
+          "Didn’t care too much for the real world sections",
+          "Got some funny bits",
+          "All the boys in asteroid city are pretty good",
+          "Got some stop motion in there",
+          "All the scientists are fun 🤩"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDJmMzY0ZGUtYWE1My00OWViLTg1NTctOWMwZWJlNDQzNGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Men in Black",
+        "score": "5/10",
+        "bullets": [
+          "creative premise",
+          "Villain is actually stupid",
+          "Vfx act h up ",
+          "All the boys in asteroid city are pretty good",
+          "Got some stop motion in there",
+          "Story doesn’t make a lot of sense but eh"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTlhYTVkMDktYzIyNC00NzlkLTlmN2ItOGEyMWQ4OTA2NDdmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
       }
     ]
   }
