@@ -435,6 +435,352 @@ const data = {
           "Story doesn’t make a lot of sense but eh"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BOTlhYTVkMDktYzIyNC00NzlkLTlmN2ItOGEyMWQ4OTA2NDdmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "T",
+        "name": "Harley Quinn",
+        "sub": "Seasons 1 & 2",
+        "score": "5/10",
+        "bullets": [
+          "Gordon and Batman dynamic is funny",
+          "Harley and ivy work well together",
+          "Episodes heavily vary in quality",
+          "Feels bad to be bane",
+          "Second season has some meta 4th wall stuff and it gets overused"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNzBmMmQzZTYtMTQ2OS00ZTE5LTg5MmQtMDRkMTQwMDI4YjU4XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Spider-Man: Across the Spider-Verse",
+        "score": "10/10",
+        "bullets": [
+          "animation team went stupid",
+          "Actually engaged during the entire movie",
+          "The Gwen bit at the beginning is so well done it’s crazy",
+          "Every new area has its own distinct colour palet (42 is green, Gwen’s is blue/red, ext)",
+          "Amazing use of colour all together",
+          "All the references in the spider area are not forced :) and quite good",
+          "Soundtrack is very fitting and great just like the first one"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Piranha 3D",
+        "score": "3/10",
+        "bullets": [
+          "story is buns",
+          "Prosthetics are done well",
+          "Cg sucks but it’s from like 2010",
+          "Mindless and dumb but I’m pretty sure it’s going for that",
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTU3NDg2NTY4Nl5BMl5BanBnXkFtZTcwMTM0OTE3Mw@@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Guardians of the Galaxy Volume 3",
+        "score": "6/10",
+        "bullets": [
+          "-1 for the part where they break into song and dance",
+          "Like the rocket backstory",
+          "The others had better soundtracks",
+          "I mean the villains kinda weak ngl",
+          "Like the main cast dynamic change",
+          "\“Ohhh it’s not your time lalalalalalla\” shut up"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDgxOTdjMzYtZGQxMS00ZTAzLWI4Y2UtMTQzN2VlYjYyZWRiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Tar",
+        "score": "9/10",
+        "bullets": [
+          "Long but bruh................................."
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BM2I0ZDcyYzItMGEyNi00YWVhLTlmNTQtOWVlYjE1ZGVhNWM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "The Bourne Identity",
+        "score": "5/10",
+        "bullets": [
+          "I feel like I’ve seen this movie 1000 times and I know it’s because of this movie",
+          "Fight scenes are just cuts",
+          "Pretty cool premise",
+          "This whole romance plot kinda makes no sense I mean lady come on there’s like 50 red flags with this guy"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BM2JkNGU0ZGMtZjVjNS00NjgyLWEyOWYtZmRmZGQyN2IxZjA2XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "T",
+        "name": "The Mandalorian",
+        "sub": "Season 3",
+        "score": "5/10",
+        "bullets": [
+          "put bo-katan in more stuff she’s a great character",
+          "I think the show needs to go back to smaller scale stuff kinda like the first season",
+          "Has some side quest episodes which are boring"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BN2M5YWFjN2YtYzU2YS00NzBlLTgwZWUtYWQzNWFhNDkyYjg3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "An American Pickle",
+        "score": "2/10",
+        "bullets": [
+          "Get it Seth Rohan is 100 years",
+          "Get it Seth Rohan is Jewish",
+          "Get it Seth Rohan likes pickles",
+          "Only good part is thanks to Tim Robinson"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNmRkZmZiNzUtMzgwYy00NTEzLWE2NjctMmI3NGI5ZTBiNDdkXkEyXkFqcGdeQXVyNzE3ODQxNjU@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Whiplash",
+        "score": "8/10",
+        "bullets": [
+          "all the characters are really good",
+          "This movie is kinda like the average fan vs enjoyer meme but for drumming",
+          "Has one great drumming solo at the end",
+          "Miles teller is on the sigma grind set this entire movie"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Dungeons & Dragons: Honor Among Thieves",
+        "score": "6/10",
+        "bullets": [
+          "gives light lotr vibes at the beginning",
+          "Some characters are kinda useless inclusions",
+          "Villains kinda weak",
+          "Got some good jokes looking at you graveyard scene",
+          "Some stuff is a little too convenient but I guess that makes for good fantasy stuff",
+          "Chris pines backstory seems a little to shoved in idk"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZWM5MTQ3NDMtNGFiMS00Y2E5LWE2ZTUtNzM5MTcyZjM3ODRiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "The Super Mario Bros. Movie",
+        "score": "6/10",
+        "bullets": [
+          "lots and lots of references and it’s fun to pick them out",
+          "Uses music from the games including the dk rap",
+          "Why are there so many 80s songs???????",
+          "Looks just like a Mario movie",
+          "Has quite a bit of cringe worthy dialog/moments",
+          "Brooklyn is so boring I would rather watch anything else"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTJhNzlmNzctNTU5Yy00N2YwLThhMjQtZDM0YjEzN2Y0ZjNhXkEyXkFqcGdeQXVyMTEwMTQ4MzU5._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "T",
+        "name": "Star Wars: The Bad Batch",
+        "sub": "Season 2",
+        "score": "6/10",
+        "bullets": [
+          "filler episodes are actually ass this time around",
+          "Decommissioned clones arc is really good (last couple episodes)",
+          "Has some songs that are similar to starwars the clone wars season 7 👍👍",
+          "Crosshairs redemption episode is a 10/10",
+          "Has quite a bit of cringe worthy dialog/moments",
+          "First half is kinda forgettable minus the Cody episode"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDA5YzQzYmItZTE4NC00NTNkLTljZGItNDQ0YjI3MzdhZjlhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "T",
+        "name": "Formula 1: Drive to Survive",
+        "sub": "Season 5",
+        "score": "6/10",
+        "bullets": [
+          "repeat interview questions",
+          "Makes a bunch up"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMzVkMGU0YWMtOWQxMC00MjFhLTg1NjAtMDFlZTZlYzJlMjlhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "John Wick: Chapter 4",
+        "score": "7/10",
+        "bullets": [
+          "There’s legit a ~10 min scene of irl hotline Miami",
+          "Some shoots are way way way too short",
+          "Incoherent soundtrack",
+          "Just more creative ways to shoot people",
+          "Still got no idea what this hightable stuff is about",
+          "They play genesis by Justice :)"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "The Da Vinci Code",
+        "score": "5/10",
+        "bullets": [
+          "one big hop jump and a skip for any conclusion",
+          "Somehow only Tom hanks can find the grail, ok",
+          "He he I smart"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjIxMjQyMTc3Nl5BMl5BanBnXkFtZTcwMTA1MDUzMw@@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "RRR",
+        "score": "6/10",
+        "bullets": [
+          "Friendship with Mudasir is now over now Salman is my best friend the movie",
+          "The most over dramatic and over the top thing on the planet",
+          "Songs are ok idk",
+          "Cg animals and motorcycles do not look good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZmY5ZDM4YjAtNGM5ZS00NzkwLTlmNGMtMGVjMjBiOTc5MjRlXkEyXkFqcGdeQXVyNzI4NjYyMzk@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Kimi",
+        "score": "4/10",
+        "bullets": [
+          "uhhh what’s the point here",
+          "Some of the worst \“oh I got stabbed\” acting I’ve seen"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYjFmOWUwYjgtM2UyYS00M2FmLTgwNmUtMWIwNTc2ZTgzNmRhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Pacific Rim: Uprising",
+        "score": "2/10",
+        "bullets": [
+          "the first movie but just worse and I kinda wish they didn’t make it",
+          "You got all these people making robots yet there’s only like 2 at the end????",
+          "Rip cheese touch kid 😔",
+          "There’s a chance this movie is propaganda",
+          "Fights are just worse same with the world building"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjI3Nzg0MTM5NF5BMl5BanBnXkFtZTgwOTE2MTgwNTM@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Pacific Rim",
+        "score": "5/10",
+        "bullets": [
+          "big robot battles yeyeyeyeyeye big robot hit big alien yeyeyeyeyeyeyyeey",
+          "\“Grade Aacting from our main character\” dude is legit a C tier call of duty protagonist",
+          "Universe is legit so good and well built",
+          "Mechs are so well designed",
+          "Has a cod soundtrack :(",
+          "Story is generic as hell"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "T",
+        "name": "Peaky Blinders",
+        "sub": "Seasons 1-6",
+        "score": "6/10",
+        "bullets": [
+          "Drinking game! Take a drink every time someone says business",
+          "Tommy has the worlds thickest plot armour",
+          "Best seasons are 1 and 4 but not every season is good and one just drags on",
+          "Music is mostly covers, the main theme, Radiohead, and Arctic Monkeys",
+          "Setting is really well done",
+          "Gets kinda spooky near the end",
+          "2 main characters leave the show and it greatly suffers from this",
+          "Definition of sigma llelelelelelelelelelel that grindset tho"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Heathers",
+        "score": "4/10",
+        "bullets": [
+          "way to meta",
+          "Beginning is kinda too fast for this type of thing",
+          "It takes like 5 min for them to start killing people",
+          "That one guy is legit the embodiment of the edgy heartthrob it’s not even funny"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTVjNTM1MDItMDhiMy00ZmM1LWI0NDItNDhlZmEzZmEzMTBmXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Puss in Boots: The Last Wish",
+        "score": "8/10",
+        "bullets": [
+          "animation is a mix between spiderverse and shrek",
+          "All the villains were really good",
+          "The dog needed to shut up sometimes",
+          "Got some creative ideas especially with the dark forest",
+          "Got some really creative shots especially with reflections",
+          "Got some funny scenes but not all of them land"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNjMyMDBjMGUtNDUzZi00N2MwLTg1MjItZTk2MDE1OTZmNTYxXkEyXkFqcGdeQXVyMTQ5NjA0NDM0._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "Paddington 2",
+        "score": "8/10",
+        "bullets": [
+          "Everything the unbearable weight of massive talent says about this movie is true",
+          "Got some fun shots with colour",
+          "The dog needed to shut up sometimes",
+          "Really heartfelt",
+          "Why does everybody want to use paddington :( he just wants to get his aunt a gift"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMmYwNWZlNzEtNjE4Zi00NzQ4LWI2YmUtOWZhNzZhZDYyNmVmXkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "The Unbearable Weight of Massive Talent",
+        "score": "6/10",
+        "bullets": [
+          "meta meta meta meta",
+          "Characters are pretty good",
+          "Nick cage shouldn’t be good at action irl",
+          "Got me to watch paddington 2",
+          "Not consistently good some parts just drag on"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDM2ODNiMWItOWRkNS00ODE3LWE2OGYtNTZkMDJkOWI1ODMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
+        "name": "The Gray Man",
+        "score": "5/10",
+        "bullets": [
+          "The story is nothing new and has been done better",
+          "There’s one super good action scene with a street car",
+          "They actually acknowledge the fact that they destroy a section of a city",
+          "There are some redundant characters"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOGQ1OGY3Y2QtMzMwNS00ODE3LThkNDktMDdkZjI2YTE4NmQ4XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
       }
     ]
   }
