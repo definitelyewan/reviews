@@ -24,16 +24,22 @@
 
       <div id="listingTable"></div>
       
-      <div class="flex bg-base-200 mb-5 items-center justify-center">
-        <a class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2" href="javascript:prevPage()" id="btn_prev">Prev</a>
-        <a class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2" href="javascript:nextPage()" id="btn_next">Next</a>
-        <span class="btn text-center bg-blue-500 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">page: <span id="page"></span></span>
-        <input id="pgJump" type="text" placeholder="Jump To Page" class="input input-bordered input-info w-full max-w-xs"/>
+      <div class="grid grid-col-1 bg-base-200">
+        <div class="flex bg-base-200 mb-5 items-center justify-center">
+          <a class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2" href="javascript:prevPage()" id="btn_prev">Prev</a>
+          <div id="pageNumbers" class="bg-base-200 text-center"></div>
+          <a class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-2" href="javascript:nextPage()" id="btn_next">Next</a>
+        </div>
+        <div class="flex bg-base-200 mb-5 items-center justify-center">
+          <span class="btn text-center bg-blue-500 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">page: <span id="page"></span></span>
+          <input id="pgJump" type="text" placeholder="Jump To Page" class="input input-bordered input-info w-full max-w-xs"/>
+        </div>
       </div>
+
       
 
       <div id="reviews"></div>
-
+      
     <script src="mkreview.js"></script>
   </body>
 </html>

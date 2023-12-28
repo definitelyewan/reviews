@@ -895,7 +895,7 @@ data.reviews.forEach((review) => {
   if(currYear != review.when){
     objJson.push({adName : mkYearHeader(review.when)});
     currYear = review.when;
-    console.log(currYear);
+
   }
 
   //adds review to list
@@ -903,62 +903,77 @@ data.reviews.forEach((review) => {
 });
 
 
+// Function to generate page numbers
+function generatePageNumbers() {
+  var numPages = Math.ceil(objJson.length / records_per_page);
+  var pageNumbersDiv = document.getElementById("pageNumbers");
+  pageNumbersDiv.innerHTML = "";
 
-function prevPage()
-{
-    if (current_page > 1) {
-        current_page--;
-        changePage(current_page);
-    }
+  for (var i = 1; i <= numPages; i++) {
+      var pageNumberButton = document.createElement('button');
+      pageNumberButton.className = "font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2 ml-2";
+      pageNumberButton.textContent = i;
+      pageNumberButton.addEventListener('click', (function(j) {
+          return function() {
+              current_page = j;
+              changePage(current_page);
+          };
+      })(i));
+      pageNumbersDiv.appendChild(pageNumberButton);
+  }
 }
 
-function nextPage()
-{
-    if (current_page < numPages()) {
-        current_page++;
-        changePage(current_page);
-    }
-}
-    
-function changePage(page)
-{
-    var btn_next = document.getElementById("btn_next");
-    var btn_prev = document.getElementById("btn_prev");
-    var listing_table = document.getElementById("listingTable");
-    var page_span = document.getElementById("page");
- 
-    // Validate page
-    if (page < 1) page = 1;
-    if (page > numPages()) page = numPages();
 
-    listing_table.innerHTML = "";
 
-    for (var i = (page-1) * records_per_page; i < (page * records_per_page); i++) {
-        listing_table.innerHTML += objJson[i].adName + "<br>";
-    }
-    page_span.innerHTML = page;
+// Function to change page
+function changePage(page) {
+   var listing_table = document.getElementById("listingTable");
+   var page_span = document.getElementById("page");
 
-    // if (page == 1) {
-    //     btn_prev.style.visibility = "hidden";
-    // } else {
-    //     btn_prev.style.visibility = "visible";
-    // }
+   // Validate page
+   if (page < 1) page = 1;
+   if (page > numPages()) page = numPages();
 
-    // if (page == numPages()) {
-    //     btn_next.style.visibility = "hidden";
-    // } else {
-    //     btn_next.style.visibility = "visible";
-    // }
+   listing_table.innerHTML = "";
+
+   for (var i = (page-1) * records_per_page; i < (page * records_per_page); i++) {
+       listing_table.innerHTML += objJson[i].adName + "<br>";
+   }
+   page_span.innerHTML = page;
+
+   // Generate page numbers
+   generatePageNumbers();
 }
 
-function numPages()
-{
-    return Math.ceil(objJson.length / records_per_page);
+// Function to calculate number of pages
+function numPages() {
+   return Math.ceil(objJson.length / records_per_page);
 }
 
+// Function to go to the previous page
+function prevPage() {
+   if (current_page > 1) {
+       window. scrollTo(0, 0)
+       current_page--;
+       changePage(current_page);
+   }
+}
+
+// Function to go to the next page
+function nextPage() {
+   if (current_page < numPages()) {
+    window. scrollTo(0, 0)
+       current_page++;
+       changePage(current_page);
+   }
+}
+
+// Initialize page numbers when the window loads
 window.onload = function() {
-    changePage(1);
+   changePage(1);
+   generatePageNumbers();
 };
+
 
 
 //listen for a custom page
@@ -966,6 +981,7 @@ var customPG = document.getElementById('pgJump');
 
 customPG.addEventListener('keyup', function(e) {
   if(e.keyCode === 13){
+    window. scrollTo(0, 0)
     changePage(customPG.value);
     current_page = customPG.value;
   }
