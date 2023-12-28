@@ -781,37 +781,66 @@ const data = {
           "There are some redundant characters"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BOGQ1OGY3Y2QtMzMwNS00ODE3LThkNDktMDdkZjI2YTE4NmQ4XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Knives Out",
+        "score": "7/10",
+        "bullets": [
+          "man lives in a clue house",
+          "Pretty good mystery and there’s a huge twist",
+          "Some jumps and leaps",
+          "Daniel Craig is pretty good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Glass Onion: A Knives Out Mystery",
+        "score": "7/10",
+        "bullets": [
+          "pretty good mystery",
+          "Some pretty cool shots",
+          "Some huge jumps and leaps",
+          "Daniel Craig & Janelle Monáe are pretty good",
+          "First one is better imo"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYmZlZDZkZjYtNzE5Mi00ODFhLTk2OTgtZWVmODBiZTI4NGFiXkEyXkFqcGdeQXVyMTE5MTg5NDIw._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Everything Everywhere All at Once",
+        "score": "9/10",
+        "bullets": [
+          "super creative I mean they turn into rocks and got hotdog fingers",
+          "Good story my g",
+          "Incredibly dumb I’m a good way",
+          "Does multiple dimensions super well",
+          "Tells a story in like 5 different universe all at once which shouldn’t be possible",
+          "Fights are good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Dune (1984)",
+        "score": "3/10",
+        "bullets": [
+          "acting ain’t great",
+          "Some of the effects are ass (even for 1984)",
+          "Some of the background paintings are god tier",
+          "Script is ass",
+          "Story moves way way to fast",
+          "Boring as hell"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTAzYzNlMDMtMGRjYS00M2UxLTk0MmEtYmE4YWZiYmEwOTIwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_.jpg"
       }
     ]
   }
-
-// function mkPanel(obj) {
-    
-//     let panel = "<div class=\"hero min-h-min bg-base-200\">";
-//     panel += "<div class=\"hero-content flex-col lg:flex-row\">";
-//     panel += "<img src=" + obj.cover + " class=\"max-w-sm max-h-[400px] object-cover rounded-lg shadow-2xl overflow-hidden\"/>";
-//     panel += "<div>";
-//     panel += "<h1 class=\"max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white\"><span class=\"text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400\">" + obj.name + "</span>";
-
-//     if(obj.mediaType === "T" || obj.mediaType === "G"){
-//         panel += " " + obj.sub;
-//     }
-
-//     panel += "</h1>";
-//     panel += "<h1 class=\"text-5xl font-bold\">" + obj.score + "</h1>";
-//     panel += "<h2 class=\"mt-5 text-3xl font-bold\">Notes:</h2>";
-
-//     //list stuff
-//     panel += "<ul class=\"ml-5 list-disc\">";
-
-//     obj.bullets.forEach((bullet) => {
-//         panel += "<li class=\"whitespace-normal\">" + bullet + "</li>";   
-//     });
-
-//     panel += "</ul></div></div>";
-
-//     document.getElementById("reviews").innerHTML += panel;
-//}
 
 //creates a panel to house a review
 function mkPanel(obj) {
@@ -841,18 +870,37 @@ function mkPanel(obj) {
   return panel;
 }
 
+//creates a year header
+function mkYearHeader(year) {
+  let panel = "<div class=\"hero min-h-min bg-base-200\">";
+  panel += "<div class=\"hero-content text-center\">";
+  panel += "<div class=\"max-w-md\">";
+  panel += "<div class=\"max-w-md\">";
+  panel += "<h1 class=\"text-5xl font-bold\">" + year + "</h1>";
+  panel += "</div></div></div>";
+    
+  return panel;
+}
+
 var current_page = 1;
 var records_per_page = 8;
+let currYear = 0;
 
 var objJson = []; //holds reviews
 
 //add reviews
 data.reviews.forEach((review) => {
-  let html = mkPanel(review);
-  objJson.push({adName : html});    
-});
+  
+  //adds year header to list
+  if(currYear != review.when){
+    objJson.push({adName : mkYearHeader(review.when)});
+    currYear = review.when;
+    console.log(currYear);
+  }
 
-console.log(objJson);
+  //adds review to list
+  objJson.push({adName : mkPanel(review)});    
+});
 
 
 
@@ -890,17 +938,17 @@ function changePage(page)
     }
     page_span.innerHTML = page;
 
-    if (page == 1) {
-        btn_prev.style.visibility = "hidden";
-    } else {
-        btn_prev.style.visibility = "visible";
-    }
+    // if (page == 1) {
+    //     btn_prev.style.visibility = "hidden";
+    // } else {
+    //     btn_prev.style.visibility = "visible";
+    // }
 
-    if (page == numPages()) {
-        btn_next.style.visibility = "hidden";
-    } else {
-        btn_next.style.visibility = "visible";
-    }
+    // if (page == numPages()) {
+    //     btn_next.style.visibility = "hidden";
+    // } else {
+    //     btn_next.style.visibility = "visible";
+    // }
 }
 
 function numPages()
@@ -920,6 +968,5 @@ customPG.addEventListener('keyup', function(e) {
   if(e.keyCode === 13){
     changePage(customPG.value);
     current_page = customPG.value;
-    //current_page = customPG.value;
   }
 });
