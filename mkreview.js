@@ -812,34 +812,107 @@ const data = {
 
 //     document.getElementById("reviews").innerHTML += panel;
 //}
+
+//creates a panel to house a review
 function mkPanel(obj) {
-    let panel = "<div class=\"hero min-h-min bg-base-200 flex justify-start items-start\">";
-    panel += "<div class=\"hero-content flex-col lg:flex-row\">";
-    panel += "<img src=" + obj.cover + " class=\"max-w-sm max-h-[400px] object-cover rounded-lg shadow-2xl overflow-hidden\"/>";
-    panel += "<div>";
-    panel += "<h1 class=\"max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white\"><span class=\"text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400\">" + obj.name + "</span>";
+  let panel = "<div class=\"hero min-h-min bg-base-200 flex justify-start items-start\">";
+  panel += "<div class=\"hero-content flex-col lg:flex-row\">";
+  panel += "<img src=" + obj.cover + " class=\"max-w-sm max-h-[400px] object-cover rounded-lg shadow-2xl overflow-hidden\"/>";
+  panel += "<div>";
+  panel += "<h1 class=\"max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white\"><span class=\"text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400\">" + obj.name + "</span>";
 
-    if(obj.mediaType === "T" || obj.mediaType === "G"){
-        panel += " " + obj.sub;
-    }
+  if(obj.mediaType === "T" || obj.mediaType === "G"){
+      panel += " " + obj.sub;
+  }
 
-    panel += "</h1>";
-    panel += "<h1 class=\"text-5xl font-bold\">" + obj.score + "</h1>";
-    panel += "<h2 class=\"mt-5 text-3xl font-bold\">Notes:</h2>";
+  panel += "</h1>";
+  panel += "<h1 class=\"text-5xl font-bold\">" + obj.score + "</h1>";
+  panel += "<h2 class=\"mt-5 text-3xl font-bold\">Notes:</h2>";
 
-    //list stuff
-    panel += "<ul class=\"ml-5 list-disc\">";
+  //list stuff
+  panel += "<ul class=\"ml-5 list-disc\">";
 
-    obj.bullets.forEach((bullet) => {
-        panel += "<li class=\"whitespace-normal\">" + bullet + "</li>"; 
-    });
+  obj.bullets.forEach((bullet) => {
+      panel += "<li class=\"whitespace-normal\">" + bullet + "</li>"; 
+  });
 
-    panel += "</ul></div></div>";
+  panel += "</ul></div></div>";
 
-    document.getElementById("reviews").innerHTML += panel;
+  return panel;
 }
 
 
 data.reviews.forEach((review) => {
-    mkPanel(review);    
+  let html = mkPanel(review);   
 });
+
+var current_page = 1;
+var records_per_page = 5;
+
+var objJson = []; //holds reviews
+
+//add reviews
+data.reviews.forEach((review) => {
+  let html = mkPanel(review);
+  objJson.push({adName : html});    
+});
+
+console.log(objJson);
+
+
+
+function prevPage()
+{
+    if (current_page > 1) {
+        current_page--;
+        changePage(current_page);
+    }
+}
+
+function nextPage()
+{
+    if (current_page < numPages()) {
+        current_page++;
+        changePage(current_page);
+    }
+}
+    
+function changePage(page)
+{
+    var btn_next = document.getElementById("btn_next");
+    var btn_prev = document.getElementById("btn_prev");
+    var listing_table = document.getElementById("listingTable");
+    var page_span = document.getElementById("page");
+ 
+    // Validate page
+    if (page < 1) page = 1;
+    if (page > numPages()) page = numPages();
+
+    listing_table.innerHTML = "";
+
+    for (var i = (page-1) * records_per_page; i < (page * records_per_page); i++) {
+        listing_table.innerHTML += objJson[i].adName + "<br>";
+    }
+    page_span.innerHTML = page;
+
+    if (page == 1) {
+        btn_prev.style.visibility = "hidden";
+    } else {
+        btn_prev.style.visibility = "visible";
+    }
+
+    if (page == numPages()) {
+        btn_next.style.visibility = "hidden";
+    } else {
+        btn_next.style.visibility = "visible";
+    }
+}
+
+function numPages()
+{
+    return Math.ceil(objJson.length / records_per_page);
+}
+
+window.onload = function() {
+    changePage(1);
+};
