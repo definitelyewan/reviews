@@ -841,13 +841,8 @@ function mkPanel(obj) {
   return panel;
 }
 
-
-data.reviews.forEach((review) => {
-  let html = mkPanel(review);   
-});
-
 var current_page = 1;
-var records_per_page = 5;
+var records_per_page = 8;
 
 var objJson = []; //holds reviews
 
@@ -916,3 +911,15 @@ function numPages()
 window.onload = function() {
     changePage(1);
 };
+
+
+//listen for a custom page
+var customPG = document.getElementById('pgJump');
+
+customPG.addEventListener('keyup', function(e) {
+  if(e.keyCode === 13){
+    changePage(customPG.value);
+    current_page = customPG.value;
+    //current_page = customPG.value;
+  }
+});
