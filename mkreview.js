@@ -838,6 +838,210 @@ const data = {
           "Boring as hell"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BYTAzYzNlMDMtMGRjYS00M2UxLTk0MmEtYmE4YWZiYmEwOTIwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Avatar: The Way of Water",
+        "score": "8/10",
+        "bullets": [
+          "a visual marvel",
+          "CG is actually way to good",
+          "I didn’t need ¼ the movie to be about the kids learning how water works",
+          "This movie is just Jake telling the kids not to do something and then they do it anyway",
+          "Ends with a setup for the 3rd movie >:(",
+          "Overall it was done pretty well just pretty long"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZDk3N2NjNGItMjI5ZS00YzkzLWFhZjEtYTI0NzMzZGI1OGI3XkEyXkFqcGdeQXVyMTI0NTE1Njg4._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "The Greatest Showman",
+        "score": "4/10",
+        "bullets": [
+          "c tier musical",
+          "Despicable me did this exact story better",
+          "The Zach and zendaya story bit kinda just doesn’t need to be there",
+          "Sets are cool"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjI1NDYzNzY2Ml5BMl5BanBnXkFtZTgwODQwODczNTM@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "The Nightmare Before Christmas",
+        "score": "9/10",
+        "bullets": [
+          "Songs are goated",
+          "Stop motion is goated",
+          "Story is pretty good",
+          "Sets are cool",
+          "Cut and shot perfectly",
+          "The end with boogie could be a little better (fight at the end)"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Zoolander",
+        "score": "5/10",
+        "bullets": [
+          "Honestly probably the dumbest movie i've seen",
+          "It doesn't make much sense but i'm pretty sure that's intentional",
+          "Pretty funny",
+          "Probably could of been shorter considering it doesnt make the most sense",
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODI4NDY2NDM5M15BMl5BanBnXkFtZTgwNzEwOTMxMDE@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "T",
+        "name": "Andor",
+        "sub": "Season 1",
+        "score": "10/10",
+        "bullets": [
+          "Characters and acting are so well done",
+          "The empire is actually evil as fuck",
+          "Some of the transitions are creative as hell  (scream into drill works super well) Its a bit slow but it pays off so well at the end of every arc",
+          "Probably could of been shorter considering it doesnt make the most sense",
+          "Every arc is like a semi R rated starwars movie that doesnt have any  characters",
+          "My god Kino, Luthen, Nemik, Skeen, and Mon 10/10 jobs my guys"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "T",
+        "name": "Inside Job",
+        "sub": "Season 2",
+        "score": "7/10",
+        "bullets": [
+          "Intro is still fire",
+          "Got some respectable episodes but not all of them are as good as the first seasons",
+          "Liked the bretts family episode",
+          "Still got the gravity falls vibe but just a lil less of it"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZTg5YjE1YzktYjRmZC00Y2VjLThiMDItOTcwODRhMjRjZDQ1XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "G",
+        "name": "God of War: Ragnarök",
+        "sub": "[PS5]",
+        "score": "8/10",
+        "bullets": [
+          "A legit improvement to god of war 2018 in almost every way",
+          "Story is amazing",
+          "Sets are amazing",
+          "Side quests are legit like main story missions this time around",
+          "There’s this one section where you pick up fruit for about an hour and it fucking sucks",
+          "Playing as Atreus is a downgrade from Kratos"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDQ1MmQ5NTItZTk0ZS00M2E5LTkzNmQtNDI2YWMyOGFlZWVjXkEyXkFqcGdeQXVyOTg3NjI1MTg@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Black Panther: Wakanda Forever",
+        "score": "4/10",
+        "bullets": [
+          "same  marvel",
+          "Movie is to long and I chunks could be cut with no change to the plot",
+          "It’s not really a black panther movie considering the black panther only exists in the last maybe 30 minutes",
+          "The whole conflict is kinda dumb not going to lie",
+          "This scientist biddy don’t even matter",
+          "Underwater cg just ain’t it"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "G",
+        "name": "A Plague Tale: Requiem",
+        "score": "8/10",
+        "bullets": [
+          "this game is too long",
+          "Graphics are nuts",
+          "The stealth is still pretty good with the improved combat",
+          "Game gets a little stale before you go to the island (this area is nuts)",
+          "Music is way to good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZGQ4ODRjYTMtMjMwZS00MjhiLWJhZWUtOWMzOTc1OGQwNWU5XkEyXkFqcGdeQXVyNDY2NDU1MzA@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Black Adam",
+        "score": "3/10",
+        "bullets": [
+          "has a licensed music soundtrack",
+          "The skateboard kid is the main character",
+          "Villain sucks",
+          "Could have cut 2 members of the justice society and the movie would of been better",
+          "The city pretty cool tho",
+          "The rock plays the rock",
+          "Rip mr fate"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "T",
+        "name": "The Lord of the Rings: The Rings of Power",
+        "sub":"Season 1",
+        "score": "4/10",
+        "bullets": [
+          "he cgi is actually amazing",
+          "Some storylines particularly the beginning of the harfoots are actually horrible",
+          "It’s got one plot twist which is cool but kinda gives off a “just why” vibe",
+          "I understand that this is just the first season but everything feels so incomplete minus the making of some rings",
+          "They just drop like half there cast mid season which is questionable"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNTg3NjcxYzgtYjljNC00Y2I2LWE3YmMtOTliZTkwYTE1MmZiXkEyXkFqcGdeQXVyNTY4NDc5MDE@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Lady Bird",
+        "score": "7/10",
+        "bullets": [
+          "got some great characters and the dialog is pretty good",
+          "Kinda boring to look at unfortunately",
+          "I feel like some of the stuff at the beginning didn’t really need to be there",
+          "Lady bird is one great lier apparently"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODhkZGE0NDQtZDc0Zi00YmQ4LWJiNmUtYTY1OGM1ODRmNGVkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Song of the Sea",
+        "score": "6/10",
+        "bullets": [
+          "so the song of the sea is basically about a mass execution",
+          "This studio can’t draw grass otherwise the art is pretty good",
+          "I get that it’s more about the adventure but this movie keeps introducing characters and dropping them. When they do come back their more there for a quick cameo.",
+          "The background music is fitting but the actual Irish Gaelic gets a little  after a while.",
+          "Good adventure tho they do go to some pretty interesting locations",
+          "Got some great art shots"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTQ2MDMwNjEwNV5BMl5BanBnXkFtZTgwOTkxMzI0MzE@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Slumdog Millionaire",
+        "score": "6/10",
+        "bullets": [
+          "the movies a little to long",
+          "Kinda loses steam in the middle but has it at the beginning and end",
+          "I still don’t actually know how my guy got on the show",
+          "Songs are ok I guess",
+          "Effects aren’t great especially when it has to do with guns"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZmNjZWI3NzktYWI1Mi00OTAyLWJkNTYtMzUwYTFlZDA0Y2UwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
       }
     ]
   }
