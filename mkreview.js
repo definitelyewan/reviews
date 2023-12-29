@@ -1624,6 +1624,77 @@ const data = {
           "Got a charm tho"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BY2E5MGI2OTAtZDA1Yy00MTg5LTk3OTMtM2ZkNTQwMDAxMGVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "T",
+        "name": "Invincible",
+        "sub":"Season 1",
+        "score": "8/10",
+        "bullets": [
+          "lots of gore",
+          "Pretty good story",
+          "Soundtrack fits",
+          "All the fights are sick",
+          "Animation can be inconsistent",
+          "Some characters kinda suck"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BN2Q1NWExNzEtM2M1Ny00ZDJhLWIwN2MtZGI5ZGI4MzBlYTQyXkEyXkFqcGdeQXVyOTYyMTY2NzQ@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Nightcrawler",
+        "score": "7/10",
+        "bullets": [
+          "my boy Jake is fucked",
+          "Good characters",
+          "Pretty fucked up concept",
+          "Serviceable in music"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BN2U1YzdhYWMtZWUzMi00OWI1LWFkM2ItNWVjM2YxMGQ2MmNhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "The Wailing",
+        "score": "7/10",
+        "bullets": [
+          "I like the mystery aspect of this movie",
+          "I'm a little bitch but there's not a lot of jump scares",
+          "This movie is very long and needs to be cut down",
+          "Plot gets to confusing",
+          "Setting is good",
+          "Characters are good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODkwMTgxNjA2NF5BMl5BanBnXkFtZTgwMDc0OTcwOTE@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Sorry to Bother You",
+        "score": "7/10",
+        "bullets": [
+          "The whole art side plot can be removed an the movie wouldn't change",
+          "The whole breakup segment could be changed and the movie would not change",
+          "The third act of this movie is absurd",
+          "Like the shots at the beginning of the movie",
+          "Effects on the horses looks off"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNjgwMmI4YzUtZGI2Mi00M2MwLWIyMmMtZWYzMWZmNzAyNmYwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Ma",
+        "score": "-∞/10",
+        "bullets": [
+          "These characters have no common sense",
+          "The plot is very dumb",
+          "No one can act",
+          "Yes plz party in my basement kids"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTA2MjA3ODU0NjBeQTJeQWpwZ15BbWU4MDE3NTQxNDcz._V1_.jpg"
       }
     ]
   }
@@ -1640,34 +1711,54 @@ function mkPanel(obj) {
   
   //Make an ID
   if(obj.mediaType === "T" || obj.mediaType === "G"){
-    panel += (obj.sub).toLowerCase();
+  panel += (obj.sub).toLowerCase();
   }
   
-  panel += "\" class=\"hero min-h-min bg-base-200 flex justify-start items-start\">";
-  panel += "<div class=\"hero-content flex-col lg:flex-row\">";
-  panel += "<img src=" + obj.cover + " class=\"max-w-sm max-h-[400px] object-cover rounded-lg shadow-2xl overflow-hidden\"/>";
+  panel += "\" class=\"hero min-h-min max-w-screen bg-base-200 flex justify-center items-center\">";
+  panel += "<div class=\"hero-content flex flex-col space-y-5 justify-between\">";
+  panel += "<img src=" + obj.cover + " class=\"w-64 max-h-[400px] object-cover rounded-lg shadow-2xl overflow-hidden\"/>";
   panel += "<div>";
-  panel += "<h1 class=\"max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white\"><span class=\"text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400\">" + obj.name + "</span>";
-
+  panel += "<h1 class=\"max-w-2xl mb-4 p-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white\"><span class=\"text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400\">" + obj.name + "</span>";
+ 
   if(obj.mediaType === "T" || obj.mediaType === "G"){
-      panel += " " + obj.sub;
+  panel += " " + obj.sub;
   }
-
+ 
   panel += "</h1>";
-  panel += "<h1 class=\"text-5xl font-bold\">" + obj.score + "</h1>";
-  panel += "<h2 class=\"mt-5 text-3xl font-bold\">Notes:</h2>";
-
+  panel += "<h1 class=\"text-5xl font-bold max-w-md m-4\">" + obj.score + "</h1>";
+  panel += "<h2 class=\"mt-5 text-3xl font-bold max-w-md m-4\">Notes:</h2>";
+ 
   //list stuff
-  panel += "<ul class=\"ml-5 list-disc\">";
-
+  panel += "<ul class=\"ml-8 list-disc\">";
+ 
   obj.bullets.forEach((bullet) => {
-      panel += "<li class=\"whitespace-normal\">" + bullet + "</li>"; 
-  });
-
+    let formattedBullet = "";
+    let words = bullet.split(" ");
+    let currentLineLength = 0;
+   
+    words.forEach((word) => {
+      if ((currentLineLength + word.length) <= 50) {
+        formattedBullet += word + " ";
+        currentLineLength += word.length + 1;
+      } else {
+        formattedBullet += "\n" + word + " ";
+        currentLineLength = word.length + 1;
+      }
+    });
+   
+    panel += "<li class=\"whitespace-normal\">" + formattedBullet + "</li>"; 
+   });
+   
+ 
   panel += "</ul></div></div>";
-
+ 
   return panel;
-}
+ }
+ 
+
+
+ 
+ 
 
 //creates a year header
 function mkYearHeader(year) {
@@ -1711,16 +1802,16 @@ function generatePageNumbers() {
   pageNumbersDiv.innerHTML = "";
  
   //Calculate start and end indices
-  var half = Math.floor(5 / 2);
+  var half = Math.floor(10 / 2);
   var start = Math.max(1, currentPage - half);
   var end = Math.min(numPages, currentPage + half);
  
   //Adjust start and end if there are fewer than 5 pages
-  if (end - start < 5) {
+  if (end - start < 10) {
     if (start == 1) {
-      end = Math.min(5, numPages);
+      end = Math.min(10, numPages);
     } else if (end == numPages) {
-      start = Math.max(1, numPages - 4);
+      start = Math.max(1, numPages - 9);
     }
   }
  
@@ -1740,6 +1831,7 @@ function generatePageNumbers() {
  
 //change page
 function changePage(page) {
+  window. scrollTo(0, 0)
    var listing_table = document.getElementById("listingTable");
    var page_span = document.getElementById("page");
 
@@ -1766,7 +1858,6 @@ function numPages() {
 //Go to the previous page
 function prevPage() {
    if (currentPage > 1) {
-       window. scrollTo(0, 0)
        currentPage--;
        changePage(currentPage);
    }
@@ -1775,7 +1866,6 @@ function prevPage() {
 //Go to the next page
 function nextPage() {
    if (currentPage < numPages()) {
-    window. scrollTo(0, 0)
        currentPage++;
        changePage(currentPage);
    }
@@ -1789,7 +1879,6 @@ customPG.addEventListener('keyup', function(e) {
     var enteredPage = parseInt(customPG.value);
     if (!isNaN(enteredPage)) {
       if (enteredPage >= 1 && enteredPage <= numPages()) {
-        window.scrollTo(0, 0)
         currentPage = enteredPage;
         changePage(currentPage);
       } else {
