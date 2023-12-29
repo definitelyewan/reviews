@@ -960,6 +960,7 @@ const data = {
         "when": 2022,
         "mediaType": "G",
         "name": "A Plague Tale: Requiem",
+        "sub":"[PS5]",
         "score": "8/10",
         "bullets": [
           "this game is too long",
@@ -1042,13 +1043,67 @@ const data = {
           "Effects aren’t great especially when it has to do with guns"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BZmNjZWI3NzktYWI1Mi00OTAyLWJkNTYtMzUwYTFlZDA0Y2UwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "T",
+        "name": "The Sandman",
+        "sub":"Season 1",
+        "score": "7/10",
+        "bullets": [
+          "good story although it’s split into individual arcs",
+          "World is pretty cool",
+          "Self contained stories are pretty entertaining",
+          "The last episode doesn’t connect one bit and feels like a waste of a final episode."
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTM0NjZjYjItM2JiYS00NmU5LWJmMTMtZjQ0OWU3Mzk1ZWZjXkEyXkFqcGdeQXVyMTAxNDE3MTE5._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Bullet Train",
+        "score": "5/10",
+        "bullets": [
+          "Way to many characters",
+          "Some characters are built up only to get killed off in 0.5 seconds of you seeing them",
+          "Generally entertaining and a cool concept",
+          "Story is mid but I’m not really paying attention to it for this kind of movie"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDU2ZmM2OTYtNzIxYy00NjM5LTliNGQtN2JmOWQzYTBmZWUzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Nope",
+        "score": "7/10",
+        "bullets": [
+          "Characters where good and everyone did a good job except for the cinematography guy",
+          "The alien is pretty cool and is kinda tense",
+          "Movies got some great shots",
+          "Plot armour can be kinda thick",
+          "Kinda goes on for a little to long"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMGIyNTI3NWItNTJkOS00MGYyLWE4NjgtZDhjMWQ4Y2JkZTU5XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg"
       }
     ]
   }
 
+  var current_page = 1;
+  var records_per_page = 8;
+  
+  var objJson = []; //holds reviews
+  var reviewTitles = []; //holds review titles
+
 //creates a panel to house a review
 function mkPanel(obj) {
-  let panel = "<div class=\"hero min-h-min bg-base-200 flex justify-start items-start\">";
+  let panel = "<div id=\"" + (obj.name).toLowerCase(); 
+  
+  //Make an ID
+  if(obj.mediaType === "T" || obj.mediaType === "G"){
+    panel += (obj.sub).toLowerCase();
+  }
+  
+  panel += "\" class=\"hero min-h-min bg-base-200 flex justify-start items-start\">";
   panel += "<div class=\"hero-content flex-col lg:flex-row\">";
   panel += "<img src=" + obj.cover + " class=\"max-w-sm max-h-[400px] object-cover rounded-lg shadow-2xl overflow-hidden\"/>";
   panel += "<div>";
@@ -1086,50 +1141,64 @@ function mkYearHeader(year) {
   return panel;
 }
 
-var current_page = 1;
-var records_per_page = 8;
-let currYear = 0;
+//generates a list for pages
+function generateFullList(){
 
-var objJson = []; //holds reviews
+  let currYear = 0;
 
-//add reviews
-data.reviews.forEach((review) => {
-  
-  //adds year header to list
-  if(currYear != review.when){
-    objJson.push({adName : mkYearHeader(review.when)});
-    currYear = review.when;
+  //add reviews
+  data.reviews.forEach((review) => {
+    
+    //adds year header to list
+    if(currYear != review.when){
+      objJson.push({adName : mkYearHeader(review.when)});
+      currYear = review.when;
+      reviewTitles.push("⍼"); //spacer (i dont think you can type this)
 
-  }
+    }
 
-  //adds review to list
-  objJson.push({adName : mkPanel(review)});    
-});
+    //adds review to list
+    objJson.push({adName : mkPanel(review)}); 
+    reviewTitles.push(review.name);   
+  });
 
+}
 
-// Function to generate page numbers
+//generate page numbers
 function generatePageNumbers() {
   var numPages = Math.ceil(objJson.length / records_per_page);
   var pageNumbersDiv = document.getElementById("pageNumbers");
   pageNumbersDiv.innerHTML = "";
-
-  for (var i = 1; i <= numPages; i++) {
-      var pageNumberButton = document.createElement('button');
-      pageNumberButton.className = "font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2 ml-2";
-      pageNumberButton.textContent = i;
-      pageNumberButton.addEventListener('click', (function(j) {
-          return function() {
-              current_page = j;
-              changePage(current_page);
-          };
-      })(i));
-      pageNumbersDiv.appendChild(pageNumberButton);
+ 
+  //Calculate start and end indices
+  var half = Math.floor(5 / 2);
+  var start = Math.max(1, current_page - half);
+  var end = Math.min(numPages, current_page + half);
+ 
+  //Adjust start and end if there are fewer than 5 pages
+  if (end - start < 5) {
+    if (start == 1) {
+      end = Math.min(5, numPages);
+    } else if (end == numPages) {
+      start = Math.max(1, numPages - 4);
+    }
   }
-}
-
-
-
-// Function to change page
+ 
+  for (var i = start; i <= end; i++) {
+    var pageNumberButton = document.createElement('button');
+    pageNumberButton.className = "font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2 ml-2";
+    pageNumberButton.textContent = i;
+    pageNumberButton.addEventListener('click', (function(j) {
+      return function() {
+        current_page = j;
+        changePage(current_page);
+      };
+    })(i));
+    pageNumbersDiv.appendChild(pageNumberButton);
+  }
+ }
+ 
+//change page
 function changePage(page) {
    var listing_table = document.getElementById("listingTable");
    var page_span = document.getElementById("page");
@@ -1149,12 +1218,12 @@ function changePage(page) {
    generatePageNumbers();
 }
 
-// Function to calculate number of pages
+//calculate number of pages
 function numPages() {
    return Math.ceil(objJson.length / records_per_page);
 }
 
-// Function to go to the previous page
+//Go to the previous page
 function prevPage() {
    if (current_page > 1) {
        window. scrollTo(0, 0)
@@ -1163,7 +1232,7 @@ function prevPage() {
    }
 }
 
-// Function to go to the next page
+//Go to the next page
 function nextPage() {
    if (current_page < numPages()) {
     window. scrollTo(0, 0)
@@ -1172,21 +1241,67 @@ function nextPage() {
    }
 }
 
-// Initialize page numbers when the window loads
-window.onload = function() {
-   changePage(1);
-   generatePageNumbers();
-};
-
-
-
 //listen for a custom page
 var customPG = document.getElementById('pgJump');
 
 customPG.addEventListener('keyup', function(e) {
   if(e.keyCode === 13){
-    window. scrollTo(0, 0)
-    changePage(customPG.value);
-    current_page = customPG.value;
+    var enteredPage = parseInt(customPG.value);
+    if (!isNaN(enteredPage)) {
+      if (enteredPage >= 1 && enteredPage <= numPages()) {
+        window.scrollTo(0, 0)
+        current_page = enteredPage;
+        changePage(current_page);
+      } else {
+        alert("Invalid page number. Please enter a number between 1 and " + numPages());
+      }
+    } else {
+      alert("Please enter a valid number.");
+    }
   }
 });
+
+
+function liveSearch() {
+  changePage(1);
+  let searchBox = document.getElementById('searchbox');
+  let searchTerm = searchBox.value.toLowerCase();
+ 
+  let reviewPos = [];
+
+  reviewTitles.forEach((title, i) => {
+    if(title.toLowerCase().includes(searchTerm)){
+      reviewPos.push(i);
+    }
+  });
+  
+  let listing_table = document.getElementById("listingTable");
+  listing_table.innerHTML = "";
+
+  reviewPos.forEach((pos) => {
+    console.log(objJson[pos]);
+    listing_table.innerHTML += String(objJson[pos].adName) + "<br>";
+    generatePageNumbers();
+    
+  });
+}
+ 
+ 
+ 
+
+let searchBox = document.getElementById('searchbox');
+
+searchBox.addEventListener('keydown', function(event) {
+ if (event.keyCode === 13) {
+   event.preventDefault(); // Prevent form submission if search box is part of a form
+   liveSearch();
+ }
+});
+
+//Initialize page numbers when the window loads
+window.onload = function() {
+  generateFullList()
+  changePage(1);
+  generatePageNumbers();
+};
+ 
