@@ -2,6 +2,31 @@ const data = {
     "reviews": [
       {
         "when": 2023,
+        "mediaType": "M",
+        "name": "The Boy and the Heron",
+        "score": "6/10",
+        "bullets": [
+          "story is just worse spirited away",
+          "art is real good but the animation is nothing special",
+          "little confusing not going to lie"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjZkNThjNTMtOGU0Ni00ZDliLThmNGUtZmMxNWQ3YzAxZTQ1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "G",
+        "name": "Super Mario Bros. Wonder",
+        "sub": "[Switch]",
+        "score": "7/10",
+        "bullets": [
+          "all levels are good...",
+          "needs better songs",
+          "dont like menus and overworld"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNmYxZTRiOTktZjkyMi00MTFmLTliNGQtNGNkNzE5Nzg4Mzk0XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+      },
+      {
+        "when": 2023,
         "mediaType": "T",
         "name": "Severance",
         "sub": "Season 1",
@@ -1310,6 +1335,295 @@ const data = {
           "Hella long and probably shouldn’t be 3hrs"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BM2MyNTAwZGEtNTAxNC00ODVjLTgzZjUtYmU0YjAzNmQyZDEwXkEyXkFqcGdeQXVyNDc2NTg3NzA@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "T",
+        "name": "Jeen-yuhs: A Kanye Trilogy",
+        "sub": "Season 1",
+        "score": "4/10",
+        "bullets": [
+          "this shit is way to long",
+          "Idk how you make a Kanye doc and licence like 2 songs of his that’s kinda criminal",
+          "First episode is quite good but by eps 2 and 3 it’s repetitive and boring"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDhkOTQ0ZWMtYTZiMi00MjU2LTgxYzItZjRkY2IzMWEzNDMwXkEyXkFqcGdeQXVyMjExNjgyMTc@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "T",
+        "name": "The Book of Boba Fett",
+        "sub": "Season 1",
+        "score": "5/10",
+        "bullets": [
+          "The present story with the pykes is pretty boring which is unfortunately 60% of the show",
+          "Bobas backstory is cool and I like it",
+          "Mado episode are good",
+          "Big fan of the main theme",
+          "Cad bane in live action lets gooooooooo"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjllZjE1MWEtYTJhZC00MWIyLTliMjEtYzM3ODc4YzQ2MjFlXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Friday",
+        "score": "4/10",
+        "bullets": [
+          "movie gets kinda old around the half way mark",
+          "Only memorable part is the meme \“damn\”",
+          "Ice cube is just ice cube",
+          "There’s like max 2 sets",
+          "The characters sit in the same spot for 90% of the movie",
+          "Soundtrack bangs tho"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYmEwNjNlZTUtNzkwMS00ZTlhLTkyY2MtMjM2MzlmODQyZGVhXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "T",
+        "name": "Grey's Anatomy",
+        "sub": "Season 1-17",
+        "score": "1/10",
+        "bullets": [
+          "Show is actually pretty decent seasons 1-4½ Aka only good when characters are interns cuz they fail all the time",
+          "There is only one song in this show that's not a cover",
+          "The most predictable thing i have ever watched can predict the outcome in the first 5 min",
+          "Characters introduced past season 10 have no character",
+          "Drama is legit stuff like \“oh my god you just took my pen. Ill now hate you for 5 episodes\”",
+          "Rip george aka the only saving grace this show had"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODA2Mjk0N2MtNGY0Mi00ZWFjLTkxODEtZDFjNDg4ZDliMGVmXkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "The Death of Stalin",
+        "score": "6/10",
+        "bullets": [
+          "Though the movie got boring at times",
+          "Liked a lot of the characters",
+          "Movie is quite funny but mainly because its making fun of them",
+          "A joke may start at the beginning of the movie only for the pay off to legit be 2 hrs in"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTcxMDc1NjcyNl5BMl5BanBnXkFtZTgwNDU0NDYxMzI@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Dune: Part One",
+        "score": "8/10",
+        "bullets": [
+          "this soundtrack fits this movie so well and fits 100% of the time",
+          "Sucks that it’s 2 movies cuz I don’t give a fuck about zendaya",
+          "Vfx are crazy good",
+          "Travel times make no sense",
+          "The bad guys look and act like generic bad guys",
+          "Lots of talk about an emperor I never see"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Train to Busan",
+        "score": "8/10",
+        "bullets": [
+          "liked the main cast",
+          "Story was quite good and gets more and more tense",
+          "Zombies are inconsistent and sometimes \“conveniently\” placed",
+          "Movie should have ended like a minute later"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTkwOTQ4OTg0OV5BMl5BanBnXkFtZTgwMzQyOTM0OTE@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "G",
+        "name": "Kid A Mnesia Exhibition",
+        "sub":"[PS5]",
+        "score": "6/10",
+        "bullets": [
+          "imagery is very trippy",
+          "Not very long can go through in like an hour",
+          "Only 3 full length songs :(",
+          "Map sucks and makes no sense",
+          "Inside the pyramid is actually so trippy yet cool as hell",
+          "You move way to slow"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYjAxMDI2ZjYtOTE3OC00OWIwLWEyMmYtZDQ3MzZmNDVlY2VjXkEyXkFqcGdeQXVyNjI2OTgxNzY@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "T",
+        "name": "Arcane: League of Legends",
+        "sub":"Season 1",
+        "score": "6/10",
+        "bullets": [
+          "Piltover storylines are weak",
+          "I dont understand the need for imagine dragons to be the theme",
+          "Soundtrack that isnt licensed (or idk league songs?) is pretty good",
+          "The undercity setting is very cool and the story should of taken place 100% here",
+          "First couple episodes are better than the later half",
+          "Please let me watch more government shit ye ye vote see if i care oh wait i dont"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Free Guy",
+        "score": "4/10",
+        "bullets": [
+          "Ryan is an NPC but also the first AI ok go off i guess",
+          "Music sucks",
+          "Stuff gets resolved way to quick",
+          "Quite forgettable"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTY2NzFjODctOWUzMC00MGZhLTlhNjMtM2Y2ODBiNGY1ZWRiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "The Suicide Squad",
+        "score": "8/10",
+        "bullets": [
+          "much better then the original",
+          "Everything just kind of works",
+          "Main characters are not invincible",
+          "It’s brutal",
+          "Someone needs to make Harley Quinn a better character"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNzUzMjkxMzItMTc0MS00MjAxLWFiZGMtY2YwOGM2Yjk1ZjBmXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Space Jam: A New Legacy",
+        "score": "2/10",
+        "bullets": [
+          "lebron can’t act",
+          "There is way to many cringe moments",
+          "Plot sucks",
+          "Soundtrack sucks",
+          "Loonie toons rap 😂😂",
+          "I guess the animation is ok but that’s it"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BY2M2MmZkYzEtOTVjNC00Nzk3LWFiNjYtMWE3NmE5MzgzN2FhXkEyXkFqcGdeQXVyMzUwNDIxMjQ@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "G",
+        "name": "Ghost of Tsushima",
+        "sub":"[PS5]",
+        "score": "7/10",
+        "bullets": [
+          "Side quests are not good",
+          "Quests for weapons and armor are ok",
+          "Main story is serviceable",
+          "Soundtrack pretty good",
+          "The gameplay is complex but top tier",
+          "Graphically this game looks real good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjEwYjRjZjctNWRmNy00NDA1LWE1MjYtYTlhMWIzZGNhMWYxXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "G",
+        "name": "Ghost of Tsushima",
+        "sub":"[PS5]",
+        "score": "7/10",
+        "bullets": [
+          "Side quests are not good",
+          "Quests for weapons and armor are ok",
+          "Main story is serviceable",
+          "Soundtrack pretty good",
+          "The gameplay is complex but top tier",
+          "Graphically this game looks real good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjEwYjRjZjctNWRmNy00NDA1LWE1MjYtYTlhMWIzZGNhMWYxXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "G",
+        "name": "It Takes Two",
+        "sub":"[PS5]",
+        "score": "8/10",
+        "bullets": [
+          "levels are inconsistent some are super good and 1 or 2 are heavy sleepers",
+          "Story is top tier",
+          "Soundtrack is ok I guess",
+          "Game is quite fun"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMGUwMWJkNGEtMjBhNC00MTNlLTgyZGYtMDUxOTQ4NzljNzE5XkEyXkFqcGdeQXVyMTEzMjE5NDg4._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "B",
+        "name": "Dissolving Classroom",
+        "score": "7/10",
+        "bullets": [
+          "Very fucked",
+          "Kinda predictable",
+          "Arts very good",
+          "Really ramps up near the halfway point",
+          "Story is pretty good but it does follow the same beat every couple chapters"
+        ],
+        "cover": "https://static.wikia.nocookie.net/junjiitomanga/images/8/8c/DissolvingClassroom.jpeg/revision/latest?cb=20220211201101"
+      },
+      {
+        "when": 2021,
+        "mediaType": "B",
+        "name": "Uzumaki",
+        "score": "10/10",
+        "bullets": [
+          "Art is really good",
+          "Its kinda an anthology but not cuz everything connects at the 75% point",
+          "Everything is quite fucked",
+          "Story is quite good"
+        ],
+        "cover": "https://static.wikia.nocookie.net/uzumakijunjjiito/images/8/8b/B947810ae7a06dfa2cdad110.L.jpg/revision/latest?cb=20120616045722"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "The Hobbit: An Unexpected Journey",
+        "score": "5/10",
+        "bullets": [
+          "Not much happens",
+          "Somehow the movie is a musical",
+          "Looks cool tho",
+          "Soundtracks ok",
+          "Got some good characters"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "G",
+        "name": "NieR Replicant: ver.1.22474487139...",
+        "sub":"[PS5]",
+        "score": "10/10",
+        "bullets": [
+          "10/10 soundtrack",
+          "Every character is blessed minus ones anime ass dialog",
+          "10/10 story (masterpiece)",
+          "Soundtracks ok",
+          "Basically the best tragic story in any game"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDVlYWJlZWEtODEzNi00MTM5LTg4ZTgtNmQwODhlNjBhZTZiXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Hoodwinked!",
+        "score": "2/10",
+        "bullets": [
+          "shit animation its freom 2005 and looks worse then og toy story",
+          "Shit story",
+          "Not funny",
+          "Got a charm tho"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BY2E5MGI2OTAtZDA1Yy00MTg5LTk3OTMtM2ZkNTQwMDAxMGVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_.jpg"
       }
     ]
   }
