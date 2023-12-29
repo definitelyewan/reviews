@@ -1084,12 +1084,238 @@ const data = {
           "Kinda goes on for a little to long"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BMGIyNTI3NWItNTJkOS00MGYyLWE4NjgtZDhjMWQ4Y2JkZTU5XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Thor: Love and Thunder",
+        "score": "4/10",
+        "bullets": [
+          "just split between a romcom and a serious movie which doesn’t work to well",
+          "Try’s a little too hard to be funny",
+          "christian bale was a good villain",
+          "Just another marvel movie tho nothing super special"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "T",
+        "name": "Obi-Wan Kenobi",
+        "sub":"Season 1",
+        "score": "5/10",
+        "bullets": [
+          "reva is way to brutal and not the best villain",
+          "Leia why are you like this your 12",
+          "All the Vader scenes are pretty good",
+          "Last ep is pretty fire",
+          "Wish talas robot was in it more :(",
+          "NO POWER POINT TANSITSIONS? Why did you do this"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTAxOTlmOTAtMjA0Yy00YjVjLWE3OTQtYjAzMWMxOTAwZTY1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Doctor Strange in the Multiverse of Madness",
+        "score": "5/10",
+        "bullets": [
+          "Vfx pretty cool ngl",
+          "Movie is split between a horror/thriller and a typical marvel movie and this doesn’t work super well",
+          "One scarlet witch section at the Illuminati headquarters is actually really good kinda a shame the didn’t do more of it",
+          "Mo magic mo problems",
+          "This America Chavez I swear is just an excuse to say \“America is the best\” but her powers cool I guess",
+          "All the different universes are pretty cool"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Magic Camp",
+        "score": "-1/10",
+        "bullets": [
+          "Shit shit shit shit shit shit omg this is bad",
+          "every trope in the book it’s actually unbearable",
+          "If your not a main character you got no lines",
+          "No characters have chemistry EVER",
+          "Shit happens cuz plot I guess"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMGViYTc1MWQtNDUxOS00ZmZhLWFkOTctYzA4NWU2OTE3M2UwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "The Boss Baby: Family Business",
+        "score": "2/10",
+        "bullets": [
+          "not funny cuz min not 5",
+          "Predictable as fuck",
+          "Pretty sure the dads a cuck",
+          "Baby’s code apps ok cool",
+          "Music is like a stock soundtrack",
+          "Animation is like at best ok"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYWY1N2I5MGUtZTBmNS00MWZmLWEyNzAtZjliNzk0ZDVkYzI1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Her",
+        "score": "9/10",
+        "bullets": [
+          "sets perfect",
+          "Setting perfect",
+          "Everyone who worked on this movie brought their a game",
+          "Only downside is there is WAY TO MUCH AI SEX"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "(500) Days of Summer",
+        "score": "7/10",
+        "bullets": [
+          "cast is all very good",
+          "I like the way it jumps around time",
+          "Way to much karaoke (for some reason it’s only to smiths and pixies songs)",
+          "My man Joseph Gordon-Levitt legit a simp"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTk5MjM4OTU1OV5BMl5BanBnXkFtZTcwODkzNDIzMw@@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Donnie Darko",
+        "score": "8/10",
+        "bullets": [
+          "I can definitely see why incels idolize this movie",
+          "Stories a little weird but I liked it",
+          "Soundtrack is quite fitting",
+          "The whole split personality thing is done pretty well",
+          "Rip Donnie’s gf"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjZlZDlkYTktMmU1My00ZDBiLWFlNjEtYTBhNjVhOTM4ZjJjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Taxi Driver",
+        "score": "6/10",
+        "bullets": [
+          "the beginning is nowhere as good as the end",
+          "My man is actually a villainy",
+          "This is by far the grainiest movie I have ever seen",
+          "Movies got only 1 song and it’s used way to much",
+          "Should have died the ending would have been better"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Joker",
+        "score": "6/10",
+        "bullets": [
+          "we live in a society",
+          "Gotta shoe horn Batman in somehow cuz apparently you have to because it’s dc",
+          "Music is ok I guess",
+          "The whole “eat the rich” movement in the background doesn’t make much sense"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Don't Look Up",
+        "score": "1/10",
+        "bullets": [
+          "garbage like why bro why is it like this and this long man",
+          "What a waste of talent",
+          "What a waste of a concept",
+          "Incredibly unfunny",
+          "Incredibly predictable",
+          "Has one song in the ost I like"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjcwZjY3NjAtNzkxZS00NmFjLTg1OGYtODJmMThhY2UwMTc5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "The Mitchells vs the Machines",
+        "score": "6/10",
+        "bullets": [
+          "I really like the animation",
+          "Songs are generic kinda like a coming of age cookie cutter high school movie",
+          "It’s got some genuinely good moments but others are pretty bad",
+          "Writer can’t write kids so everyone just kinda seems like an adult",
+          "I like the robo boys :)"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjdkZjNjNDItYzc4MC00NTkxLTk1MWEtY2UyZjY5MjUwNDNkXkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "T",
+        "name": "Inside Job",
+        "sub": "Season 1",
+        "score": "8/10",
+        "bullets": [
+          "into is to good",
+          "Got a couple laughs out of me",
+          "Huge gravity falls vibes",
+          "Some plot points are dragged on to long",
+          "The mushroom guy would annoy me sometimes I get it your horny"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZTg5YjE1YzktYjRmZC00Y2VjLThiMDItOTcwODRhMjRjZDQ1XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "Fast & Furious Presents: Hobbs & Shaw",
+        "score": "4/10",
+        "bullets": [
+          "kinda funny",
+          "Story is serviceable",
+          "Big virus bad bad",
+          "The whole movie is pretty dumb but that’s ight",
+          "All actors are just themselve"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTIzYmUyMmEtMWQzNC00YzExLTk3MzYtZTUzYjMyMmRiYzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "F9: The Fast Saga",
+        "score": "2/10",
+        "bullets": [
+          "I’m sure nothing happened in this movie",
+          "They ran out of ideas so they went to space",
+          "Vin doesn’t say family enough",
+          "So cookie cutter it’s not even funny",
+          "Car go vroom vroom"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg"
+      },
+      {
+        "when": 2022,
+        "mediaType": "M",
+        "name": "The Batman",
+        "score": "7/10",
+        "bullets": [
+          "I didn’t know you could have this much blur in one movie actually gross",
+          "Dude who played the riddler did a stellar job",
+          "Some of the shots in this movie are wallpaper worthy",
+          "You got too many villains bro",
+          "Hella long and probably shouldn’t be 3hrs"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BM2MyNTAwZGEtNTAxNC00ODVjLTgzZjUtYmU0YjAzNmQyZDEwXkEyXkFqcGdeQXVyNDc2NTg3NzA@._V1_.jpg"
       }
     ]
   }
 
-  var current_page = 1;
-  var records_per_page = 8;
+  var currentPage = 1;
+  var recordsPerPage = 8;
   
   var objJson = []; //holds reviews
   var reviewTitles = []; //holds review titles
@@ -1166,14 +1392,14 @@ function generateFullList(){
 
 //generate page numbers
 function generatePageNumbers() {
-  var numPages = Math.ceil(objJson.length / records_per_page);
+  var numPages = Math.ceil(objJson.length / recordsPerPage);
   var pageNumbersDiv = document.getElementById("pageNumbers");
   pageNumbersDiv.innerHTML = "";
  
   //Calculate start and end indices
   var half = Math.floor(5 / 2);
-  var start = Math.max(1, current_page - half);
-  var end = Math.min(numPages, current_page + half);
+  var start = Math.max(1, currentPage - half);
+  var end = Math.min(numPages, currentPage + half);
  
   //Adjust start and end if there are fewer than 5 pages
   if (end - start < 5) {
@@ -1190,8 +1416,8 @@ function generatePageNumbers() {
     pageNumberButton.textContent = i;
     pageNumberButton.addEventListener('click', (function(j) {
       return function() {
-        current_page = j;
-        changePage(current_page);
+        currentPage = j;
+        changePage(currentPage);
       };
     })(i));
     pageNumbersDiv.appendChild(pageNumberButton);
@@ -1209,7 +1435,7 @@ function changePage(page) {
 
    listing_table.innerHTML = "";
 
-   for (var i = (page-1) * records_per_page; i < (page * records_per_page); i++) {
+   for (var i = (page-1) * recordsPerPage; i < (page * recordsPerPage); i++) {
        listing_table.innerHTML += objJson[i].adName + "<br>";
    }
    page_span.innerHTML = page;
@@ -1220,24 +1446,24 @@ function changePage(page) {
 
 //calculate number of pages
 function numPages() {
-   return Math.ceil(objJson.length / records_per_page);
+   return Math.ceil(objJson.length / recordsPerPage);
 }
 
 //Go to the previous page
 function prevPage() {
-   if (current_page > 1) {
+   if (currentPage > 1) {
        window. scrollTo(0, 0)
-       current_page--;
-       changePage(current_page);
+       currentPage--;
+       changePage(currentPage);
    }
 }
 
 //Go to the next page
 function nextPage() {
-   if (current_page < numPages()) {
+   if (currentPage < numPages()) {
     window. scrollTo(0, 0)
-       current_page++;
-       changePage(current_page);
+       currentPage++;
+       changePage(currentPage);
    }
 }
 
@@ -1250,8 +1476,8 @@ customPG.addEventListener('keyup', function(e) {
     if (!isNaN(enteredPage)) {
       if (enteredPage >= 1 && enteredPage <= numPages()) {
         window.scrollTo(0, 0)
-        current_page = enteredPage;
-        changePage(current_page);
+        currentPage = enteredPage;
+        changePage(currentPage);
       } else {
         alert("Invalid page number. Please enter a number between 1 and " + numPages());
       }
@@ -1279,7 +1505,6 @@ function liveSearch() {
   listing_table.innerHTML = "";
 
   reviewPos.forEach((pos) => {
-    console.log(objJson[pos]);
     listing_table.innerHTML += String(objJson[pos].adName) + "<br>";
     generatePageNumbers();
     
