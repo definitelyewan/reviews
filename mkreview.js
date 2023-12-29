@@ -1695,6 +1695,115 @@ const data = {
           "Yes plz party in my basement kids"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BMTA2MjA3ODU0NjBeQTJeQWpwZ15BbWU4MDE3NTQxNDcz._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Cock Blockers",
+        "score": "3/10",
+        "bullets": [
+          "Got very few laughs",
+          "Ha ha sex = funny",
+          "Generic teanagers made by boomers"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjE0ODIzNjkzMl5BMl5BanBnXkFtZTgwODQ3MzU4NDM@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Hall Pass",
+        "score": "2/10",
+        "bullets": [
+          "Ha ha sex = funny",
+          "Worlds dumbest plot and plot points",
+          "Has the worlds flattest lighting",
+          "There is almost nothing redeeming about this movie"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTc4MzIxNTYwNl5BMl5BanBnXkFtZTcwNzE4MjE0NA@@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Godzilla vs. Kong",
+        "score": "4/10",
+        "bullets": [
+          "Hong Kong gets wiped off the map :(",
+          "Has a pointless storyline and it’s like 30% of the movie",
+          "Bing bong big monkey ha ha",
+          "Lizard boy shoots Laser through the planet",
+          "There is way to much neon in this movie",
+          "Not a lot is explained well"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZmYzMzU4NjctNDI0Mi00MGExLWI3ZDQtYzQzYThmYzc2ZmNjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "T",
+        "name": "Wizards of Waverly Place",
+        "sub":"Seasons 1-4",
+        "score": "5/10",
+        "bullets": [
+          "first two seasons are actually pretty hype for an episodic show",
+          "Seasons 3 and 4 are shit",
+          "Theme songs a bop tho"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZGYzMjA3MjQtZjkwMi00N2RmLTgyNTktYjk4OTAwNzUyNmVjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTEwMTkwOTI@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Zack Snyder's Justice League",
+        "score": "6/10",
+        "bullets": [
+          "some of the cgi looks unfinished",
+          "Story actually works meaning most characters have motivation",
+          "That weird Russian family does not make an appearance :)",
+          "the 4:3 ratio kinda makes the movie worse",
+          "The soundtrack fits maybe 40% of the time",
+          "the movie still has trouble with not explaining some things",
+          "By the end The Whole thing feels complete so it gets wrapped up nicely"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYjI3NDg0ZTEtMDEwYS00YWMyLThjYjktMTNlM2NmYjc1OGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Operation Varsity Blues: The College Admissions Scandal",
+        "score": "6/10",
+        "bullets": [
+          "The way its presented is ok",
+          "Kinda weird as sometimes you dont know if the characters are talking to you or other characters",
+          "Really likes to go over the same points over and over",
+          "Its to long for what it is"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMGUwYjBiYzctY2FjZC00MWI4LWJmY2MtNGE1YTVjMzA0NGMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Blood Machines",
+        "score": "6/10",
+        "bullets": [
+          "Music is carpenter brut so that's flames",
+          "Basically a 50 minute music video",
+          "Story is pretty poo",
+          "Lots of nude shit which kinda ruins it"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMzhjNzNjMjItYzg1Ny00MjZkLTlmMTYtN2IzOTVmNWJlMzNiXkEyXkFqcGdeQXVyMTAzNjM2OQ@@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "T",
+        "name": "Neon Genesis Evangelion",
+        "sub":"Season 1",
+        "score": "8/10",
+        "bullets": [
+          "first 14 episodes are a snooze fest",
+          "After the first 14 episodes this show is a banger",
+          "Plot is kinda fucked but not the worst",
+          "the op is a banger"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODZkZjUxNmEtMGEyOS00ZDY5LTkxZDMtZTJkZDBiZTkyOWRkXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
       }
     ]
   }
