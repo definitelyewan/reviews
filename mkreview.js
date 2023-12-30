@@ -1804,6 +1804,142 @@ const data = {
           "the op is a banger"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BODZkZjUxNmEtMGEyOS00ZDY5LTkxZDMtZTJkZDBiZTkyOWRkXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "T",
+        "name": "Cobra Kai",
+        "sub":"Season 1-3",
+        "score": "4/10",
+        "bullets": [
+          "in no way is this show good but boy is it bing worthy",
+          "Plot is hot garbage",
+          "Johnny had a sad life oh no Kung-fu",
+          "the op is a banger",
+          "Kung-fu solves every problem according to this show"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTI3NjcxNjctNzZhZS00NjQwLTg4NDEtMmQzOGJiYTUwNWFjXkEyXkFqcGdeQXVyOTA5NzQ0MDQ@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Neon Genesis Evangelion: The End of Evangelion",
+        "score": "8/10",
+        "bullets": [
+          "Just the good bits of the show for like an hour",
+          "Just as fucked as the latter half of the show",
+          "Plot needs to be explained tho"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjU0MzQwMmMtMWU3OS00MDc0LWIzOTItZmE1MjZlYmExMGJiXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg"
+      },
+      {
+        "when": 2021,
+        "mediaType": "M",
+        "name": "Happy as Lazzaro",
+        "score": "5/10",
+        "bullets": [
+          "When hes a farm boy the movies kinda flames",
+          "There is almost no soundtrack",
+          "The movie is shot with film grain turned up to a million",
+          "The latter half is pretty poo"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOWYwOTBmOGMtZWZiNC00YjNjLWIzOTUtNGEzZWFkYTg1ZDdjXkEyXkFqcGdeQXVyMjgyNjk3MzE@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "A Silent Voice",
+        "score": "7/10",
+        "bullets": [
+          "Extremely good some of the deff scenes were a little hard but ahhh"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjc3OTVhYzItYmY2ZS00YjNmLTk2MmMtNDI0NDBkNTEwMmY3XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Your Name.",
+        "score": "9/10",
+        "bullets": [
+          "Fire movie that’s all."
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "Gravity Falls",
+        "sub":"Season 1 & 2",
+        "score": "7/10",
+        "bullets": [
+          "Almost every episode is extremely good however the middle of the first season is kinda lacking"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTEzNDc3MDQ2NzNeQTJeQWpwZ15BbWU4MDYzMzUwMDIx._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Shadow of the Colossus",
+        "sub":"[PS4]",
+        "score": "7/10",
+        "bullets": [
+          "Horse camera 0/10",
+          "The bosses are almost all amazing",
+          "The music is super fitting and dope"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTk3YTFjYzItMDFmNS00NTgxLWE1YzAtODQzNzYwMDNjMTM5XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Star Wars Jedi: Fallen Order",
+        "sub":"[PS4]",
+        "score": "4/10",
+        "bullets": [
+          "Combat is pretty good when the game decides to function",
+          "Did not run well at all",
+          "The game thought it would be a great idea to extend its story length with obvious shit"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BN2FiYjJlNGItMzU1My00ZDc3LTg4YTktM2YxMDkwMGE4YTZkXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "The Mandalorian",
+        "sub":"Season 1",
+        "score": "6/10",
+        "bullets": [
+          "Liked the story",
+          "Baby Yoda"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNGU1Yzc4MzctMDYzNS00YTU5LWFkZTAtMzU2NjBiZTJhNzM5XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Uncharted: Drake's Fortune",
+        "sub":"[PS4]",
+        "score": "6/10",
+        "bullets": [
+          "not the best story out of all 4 games",
+          "Difficulty does not match the title",
+          "Boss fights don’t work",
+          "Lack of enemy types"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODRiYjk0OWEtMzNlMS00YjU3LTlhOGYtZjRjYTA0ZDhlNjg1XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Cats",
+        "score": "2/10",
+        "bullets": [
+          "looks bad",
+          "Had no idea what was going on",
+          "Cats where horny as fuck",
+          "Tylor Swift looks really thick in this movie"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNjRlNTY3MTAtOTViMS00ZjE5LTkwZGItMGYwNGQwMjg2NTEwXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg"
       }
     ]
   }
