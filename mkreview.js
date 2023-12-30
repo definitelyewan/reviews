@@ -1940,6 +1940,131 @@ const data = {
           "Tylor Swift looks really thick in this movie"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BNjRlNTY3MTAtOTViMS00ZjE5LTkwZGItMGYwNGQwMjg2NTEwXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Frozen 2",
+        "score": "6/10",
+        "bullets": [
+          "frozen 1 is better",
+          "Has an actual race war",
+          "Music is good just not great but I like that one song that goes like “into the unknown” but that’s pretty much it",
+          "Animation be real good",
+          "I don’t like Olaf"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Jojo Rabbit",
+        "score": "7/10",
+        "bullets": [
+          "This movie is actually really sad",
+          "A good story I like my boy learning not to be a nazi",
+          "The comic relief kid made me skip almost all those sections"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjU0Yzk2MzEtMjAzYy00MzY0LTg2YmItM2RkNzdkY2ZhN2JkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Full Metal Jacket",
+        "score": "5/10",
+        "bullets": [
+          "animal mother looks like he’s on pace for a nuke",
+          "There are two stories but only the first one is good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Hot Rod",
+        "score": "3/10",
+        "bullets": [
+          "Funny idea",
+          "Bruh really bad at stunts",
+          "Gets less funny as time goes on"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNjYwNjA3OTY0Nl5BMl5BanBnXkFtZTcwNDMyNDUzMw@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Toy Story 3",
+        "score": "8/10",
+        "bullets": [
+          "hella sad woody really just looking out for everyone",
+          "It’s Pixar so it’s good",
+          "They should have ended it here"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Parasite",
+        "score": "10/10",
+        "bullets": [
+          "These boys just played an entire family",
+          "Good story had no idea what was going to happen",
+          "Really had me guessing",
+          "This movie kinda creepy",
+          "Very bitter"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Spirited Away",
+        "score": "9/10",
+        "bullets": [
+          "This movie is really pretty",
+          "The animation is so hype and it came out in 2001",
+          "Got some good feels"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Uncharted 2: Among Thieves",
+        "sub":"[PS4]",
+        "score": "9/10",
+        "bullets": [
+          "All the characters are flames",
+          "I actually never got bored while playing",
+          "Fuck the guardians they can go burn"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BM2Y3OTljMWQtNTU4NC00NjFlLWI2ZTgtOTU3MjBkZDM0YWZhXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Aladdin",
+        "score": "8/10",
+        "bullets": [
+          "timeless classi and way way way better then the live action remake",
+          "Music is awesome",
+          "Robin Williams is great rip"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZTg5ZTVmM2EtZjdhZC00MzBjLWEwZTYtNWIwZDczYzZkMzA4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Anastasia",
+        "score": "7/10",
+        "bullets": [
+          "once upon a December is one of Disney’s best songs",
+          "The concept is really cool",
+          "Not your classic princes story",
+          "The animation is rotoscoped so it feels pretty life like"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNGJiNWFlYTMtZTBiZi00ZTVmLWJmZmMtNzEzYzZjNzYzZmRmXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg"
       }
     ]
   }
