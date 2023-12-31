@@ -23,6 +23,11 @@ const data = {
           "needs better songs",
           "dont like menus and overworld"
         ],
+
+        "awards":[
+          "Game"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BNmYxZTRiOTktZjkyMi00MTFmLTliNGQtNGNkNzE5Nzg4Mzk0XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
       },
       {
@@ -75,6 +80,12 @@ const data = {
           "Story is pretty goated",
           "Has the same plot structure as a Nier game"
         ],
+        
+        "awards":[
+          "Movie",
+          "Story"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BNDJhYTk2MTctZmVmOS00OTViLTgxNjQtMzQxOTRiMDdmNGRjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
       },
       {
@@ -99,6 +110,11 @@ const data = {
           "So stylized on god",
           "Legit the definition of show dont tell"
         ],
+
+        "awards":[
+          "Cinematography"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BYWVjNjMwZTgtMGYyYy00NmVhLWE1NDItMzFhMmJkYTNjYWIwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
       },
       {
@@ -313,6 +329,11 @@ const data = {
           "All the characters and the world are pretty good",
           "Just an adventure in the post apocalypse with the homies",
         ],
+
+        "awards":[
+          "Show"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BMjQ3NGE5NzItM2RlMi00YWE5LWJlOTAtYWRkMWRiY2Y0NmQ3XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg"
       },
       {
@@ -490,6 +511,12 @@ const data = {
           "All the references in the spider area are not forced :) and quite good",
           "Soundtrack is very fitting and great just like the first one"
         ],
+
+        "awards":[
+          "Entertainer",
+          "Animation"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg"
       },
       {
@@ -847,6 +874,11 @@ const data = {
           "Tells a story in like 5 different universe all at once which shouldn’t be possible",
           "Fights are good"
         ],
+
+        "awards":[
+          "Movie"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_.jpg"
       },
       {
@@ -905,6 +937,11 @@ const data = {
           "Cut and shot perfectly",
           "The end with boogie could be a little better (fight at the end)"
         ],
+
+        "awards":[
+          "Animation"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_.jpg"
       },
       {
@@ -934,6 +971,13 @@ const data = {
           "Every arc is like a semi R rated starwars movie that doesnt have any  characters",
           "My god Kino, Luthen, Nemik, Skeen, and Mon 10/10 jobs my guys"
         ],
+
+        "awards":[
+          "Entertainer",
+          "Show",
+          "Story"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg"
       },
       {
@@ -964,6 +1008,11 @@ const data = {
           "There’s this one section where you pick up fruit for about an hour and it fucking sucks",
           "Playing as Atreus is a downgrade from Kratos"
         ],
+
+        "awards":[
+          "Game"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BMDQ1MmQ5NTItZTk0ZS00M2E5LTkzNmQtNDI2YWMyOGFlZWVjXkEyXkFqcGdeQXVyOTg3NjI1MTg@._V1_.jpg"
       },
       {
@@ -1334,6 +1383,11 @@ const data = {
           "You got too many villains bro",
           "Hella long and probably shouldn’t be 3hrs"
         ],
+
+        "awards":[
+          "Cinematography"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BM2MyNTAwZGEtNTAxNC00ODVjLTgzZjUtYmU0YjAzNmQyZDEwXkEyXkFqcGdeQXVyNDc2NTg3NzA@._V1_.jpg"
       },
       {
@@ -1466,6 +1520,11 @@ const data = {
           "First couple episodes are better than the later half",
           "Please let me watch more government shit ye ye vote see if i care oh wait i dont"
         ],
+
+        "awards":[
+          "Animation"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
       },
       {
@@ -1493,6 +1552,11 @@ const data = {
           "It’s brutal",
           "Someone needs to make Harley Quinn a better character"
         ],
+
+        "awards":[
+          "Movie"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BNzUzMjkxMzItMTc0MS00MjAxLWFiZGMtY2YwOGM2Yjk1ZjBmXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg"
       },
       {
@@ -1524,22 +1588,11 @@ const data = {
           "The gameplay is complex but top tier",
           "Graphically this game looks real good"
         ],
-        "cover": "https://m.media-amazon.com/images/M/MV5BMjEwYjRjZjctNWRmNy00NDA1LWE1MjYtYTlhMWIzZGNhMWYxXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"
-      },
-      {
-        "when": 2021,
-        "mediaType": "G",
-        "name": "Ghost of Tsushima",
-        "sub":"[PS5]",
-        "score": "7/10",
-        "bullets": [
-          "Side quests are not good",
-          "Quests for weapons and armor are ok",
-          "Main story is serviceable",
-          "Soundtrack pretty good",
-          "The gameplay is complex but top tier",
-          "Graphically this game looks real good"
+
+        "awards":[
+          "Cinematography"
         ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BMjEwYjRjZjctNWRmNy00NDA1LWE1MjYtYTlhMWIzZGNhMWYxXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"
       },
       {
@@ -1581,6 +1634,12 @@ const data = {
           "Everything is quite fucked",
           "Story is quite good"
         ],
+
+        "awards":[
+          "Entertainer",
+          "Story"
+        ],
+
         "cover": "https://static.wikia.nocookie.net/uzumakijunjjiito/images/8/8b/B947810ae7a06dfa2cdad110.L.jpg/revision/latest?cb=20120616045722"
       },
       {
@@ -1610,6 +1669,11 @@ const data = {
           "Soundtracks ok",
           "Basically the best tragic story in any game"
         ],
+
+        "awards":[
+          "Game"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BMDVlYWJlZWEtODEzNi00MTM5LTg4ZTgtNmQwODhlNjBhZTZiXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
       },
       {
@@ -1803,6 +1867,11 @@ const data = {
           "Plot is kinda fucked but not the worst",
           "the op is a banger"
         ],
+
+        "awards":[
+          "Show"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BODZkZjUxNmEtMGEyOS00ZDY5LTkxZDMtZTJkZDBiZTkyOWRkXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
       },
       {
@@ -2014,6 +2083,11 @@ const data = {
           "This movie kinda creepy",
           "Very bitter"
         ],
+
+        "awards":[
+          "Movie"
+        ],
+
         "cover": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
       },
       {
@@ -2065,22 +2139,612 @@ const data = {
           "The animation is rotoscoped so it feels pretty life like"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BNGJiNWFlYTMtZTBiZi00ZTVmLWJmZmMtNzEzYzZjNzYzZmRmXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Uncut Gems",
+        "score": "7/10",
+        "bullets": [
+          "Adam sandlers in a good movie what!",
+          "Forgot who was In Adam sandlers family",
+          "Good story but it’s pretty long",
+          "Some parts where pretty dumb I.e the weekend being in the movie"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZDhkMjUyYjItYWVkYi00YTM5LWE4MGEtY2FlMjA3OThlYmZhXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "T2 Trainspotting",
+        "score": "7/10",
+        "bullets": [
+          "Sick boys back",
+          "Frankos back",
+          "Im back",
+          "This man really wants everyone dead",
+          "Fuck the grain"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjI0MTE1ODkzMl5BMl5BanBnXkFtZTgwMTQ1MTg5MDI@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "score": "8/10",
+        "bullets": [
+          "Great characters",
+          "Poo poo CGI",
+          "Big battles owo"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Pirates of the Caribbean: Dead Man's Chest",
+        "score": "5/10",
+        "bullets": [
+          "Davey jones CGI was made in 2006 and looks better than half the stuff made today",
+          "Story = bruh",
+          "Marry marry marry stfu",
+          "Stop splitting up your movies"
+        ],
+
+        "awards":[
+          "Effects"
+        ],
+        
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Pirates of the Caribbean: At World's End",
+        "score": "4/10",
+        "bullets": [
+          "Why are there pirate lords?",
+          "Bruh why are there gods in this movie",
+          "Almost trash"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Pirates of the Caribbean: On Stranger Tides",
+        "score": "2/10",
+        "bullets": [
+          "Cool concept but almost trash"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjE5MjkwODI3Nl5BMl5BanBnXkFtZTcwNjcwMDk4NA@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
+        "score": "1/10",
+        "bullets": [
+          "trash"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Ghost in the Shell",
+        "score": "8/10",
+        "bullets": [
+          "pretty deep",
+          "Has a plot that you can’t really guess",
+          "Anime tiddies",
+          "All shots of the city are so cool and beat modern day animation",
+          "Soundtrack sometimes doesn’t match and can be repetitive"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYWRiYjQyOGItNzQ1Mi00MGI1LWE3NjItNTg1ZDQwNjUwNDM2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "I Think You Should Leave with Tim Robinson",
+        "sub":"Season 1",
+        "score": "5/10",
+        "bullets": [
+          "really funny",
+          "Some skits actually suck and ruin enjoyment",
+          "Garfield the cat has his own skit :)"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDAxOWU5ZGItNmI2NC00OTcyLThkM2EtYjk3NDQzYWI5YTM2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "My Hero Academia",
+        "sub":"Season 1-4",
+        "score": "8/10",
+        "bullets": [
+          "Eri is one of the worst characters in any tv show",
+          "The villains are mostly pretty good characters",
+          "Some of the main cast sucks",
+          "Some story arcs actually suck",
+          "It loves to retread  info like there is no tomorrow",
+          "Powers be cool"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOGZmYjdjN2UtNjAwZi00YmEyLWFhNTEtNjM1OTc5ODg0MGEyXkEyXkFqcGdeQXVyMTA1NjQyNjkw._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Halo: Combat Evolved",
+        "sub":"[PC]",
+        "score": "4/10",
+        "bullets": [
+          "I understand that it’s groundbreaking for first person shooters",
+          "Most rooms are copy pasted",
+          "Only one usable gun. The pistol this makes the rest of the weapons garbage",
+          "Only fun with other people",
+          "Music bangs"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYzJkY2E2M2YtYjBkNy00OWRhLWI5NzQtY2U5MWFmZWJiMDZhXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Uncharted 4: A Thief's End",
+        "sub":"[PS4]",
+        "score": "7/10",
+        "bullets": [
+          "one of the best games graphically (at least for people)",
+          "Story is pretty good however some missions like chapter 17-18 are very sub par",
+          "Driving works for the most part",
+          "epilogue is straight poo (doesn’t answer much for the end of the series)"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTYzYzIxMjktMDM4NS00MTM5LWJlMDgtNDRhMDNhOGRmY2EwXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Tomb Raider 2013",
+        "sub":"[PS3]",
+        "score": "9/10",
+        "bullets": [
+          "Music is always fitting",
+          "Does combat perfectly. Like you need to use stealth most of the time",
+          "Gives a great sense of progression through finding weapon parts + equipment",
+          "Story is banging rip the crew",
+          "The setting can be pretty gorey but it’s overall interesting"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTNhOGRiMjctODlkZS00MjdiLWEwMDMtNTc1NmY2ZDUxYjQ5XkEyXkFqcGdeQXVyMTE3MTIxNDk4._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "W",
+        "name": "Video Game High School",
+        "sub":"Season 1-3",
+        "score": "4/10",
+        "bullets": [
+          "more money does not = a better show",
+          "The first season is a classic YouTube gem",
+          "Season 3 is just lackin and is the worst of the 3 by far",
+          "Season 2 is not much better than 3"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTgxOTMwOTAxMF5BMl5BanBnXkFtZTcwMTY3MTExOA@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "Star Wars: The Clone Wars",
+        "sub":"Season 7",
+        "score": "9/10",
+        "bullets": [
+          "on par with season 4 aka the best season",
+          "The first and last arc are actually fantastic",
+          "The use of non classic starwars sounds in the last arc is great",
+          "Animation is a lot better over all in this season",
+          "Order 66 happens feels bad for my boy Rex"
+        ],
+
+        "awards":[
+          "Show"
+        ],
+
+        "cover": "https://m.media-amazon.com/images/M/MV5BZWFlNzRmOTItZjY1Ni00ZjZkLTk5MDgtOGFhOTYzNWFhYzhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "The Midnight Gospel",
+        "sub":"Season 1",
+        "score": "8/10",
+        "bullets": [
+          "Every episode has 2 different stories",
+          "The art is really wacky",
+          "The show is hella deep",
+          "Music kinda lacking"
+        ],
+
+        "awards":[
+          "Animation"
+        ],
+
+        "cover": "https://m.media-amazon.com/images/M/MV5BNWQ1MzBhMzctYmE3My00NjVmLTkyMTItYzJkOTlkNzQ4MjJiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "Fate/Stay Night",
+        "sub":"Season 1",
+        "score": "6/10",
+        "bullets": [
+          "not as good as fate/zero",
+          "characters other then the main cast have no time to shine",
+          "Saw the twist coming",
+          "The whole concept is really cool Fate/zero did it better tho"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTExZmM2ZjktM2E0NS00MjY4LWFkYTktYjc4OWMzMjNmOTgyXkEyXkFqcGdeQXVyMTA1OTEwNjE@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Rise of the Tomb Raider",
+        "sub":"[PS4]",
+        "score": "7/10",
+        "bullets": [
+          "the sense of progression from the first game is kinda gone but it’s still good",
+          "Environments look pretty good",
+          "Uses the same 5 character models over and over",
+          "The deathless are very cool",
+          "Music be on point but plays at some odd times sometimes"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMzc5OTU1N2ItNWUzNy00YWM2LWEwMTktZjIzZDNhMzBlNjJjXkEyXkFqcGdeQXVyNTM0MjE5NTc@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "Community",
+        "sub":"Season 1-6",
+        "score": "7/10",
+        "bullets": [
+          "Pretty great minus the 5th and 6th season",
+          "Great characters really liked Troy",
+          "Likes to reuse a lot of ideas and sometimes they aren’t good",
+          "Dont like the 5th and 6th seasons characters"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDQ5NDZiYjktZmFmMy00MjAxLTk1MDktOGZjYTY5YTE1ODdmXkEyXkFqcGdeQXVyNjcwMzEzMTU@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "Fate/Zero",
+        "sub":"Season 1",
+        "score": "8/10",
+        "bullets": [
+          "Better then stay night really cool concept",
+          "I like all the different perspectives",
+          "Feels bad for my main man berzerker",
+          "Kinda hits the feels"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTRlYThlZjUtZjM4OS00YmIzLTkwODItZGQ3YzcwMzI1YWIzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Rogue One",
+        "score": "6/10",
+        "bullets": [
+          "Story can be dumb",
+          "Brings context for the 4th",
+          "Some story elements are good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "The Thing",
+        "score": "9/10",
+        "bullets": [
+          "really tense",
+          "Story is really good",
+          "The monster is a cool premis",
+          "Some of these boys be stupid"
+        ],
+
+        "awards":[
+          "Cinematography"
+        ],
+
+        "cover": "https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "A Plague Tale: Innocence",
+        "sub":"[PC]",
+        "score": "7/10",
+        "bullets": [
+          "Soundtrack fits but isnt really that good",
+          "Lighting pog",
+          "Story pog",
+          "The way it plays pog",
+          "Last boss fight not pog",
+          "Playing as the brother not pog"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BY2FiNDhkY2ItMmEyNS00Njk5LTgyNjYtNDJlNWUyZmE0YWE5XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "BioShock",
+        "sub":"[PC]",
+        "score": "9/10",
+        "bullets": [
+          "did not like the doctors it was to spooky",
+          "Rapture is built super well and looks sick",
+          "Shooting can be clunky",
+          "Plasmids are super cool",
+          "The music is dope",
+          "Ending kinda sucked",
+          "great twist"
+        ],
+
+        "awards":[
+          "Entertainer",
+          "Game",
+          "Story"
+        ],
+
+        "cover": "https://m.media-amazon.com/images/M/MV5BNjBkZmI4NzktZTJmMC00NDNlLTk2M2ItNGEwODUxZGEwNmZiXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Castle in the Sky",
+        "score": "10/10",
+        "bullets": [
+          "looks good and this movie was animated in the 80s",
+          "Looks like a painting",
+          "Sounds great",
+          "Characters are memorable",
+          "Dialog can be a bit choppy but can be looked past"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDFhZmY2NTgtMzljYy00MTlhLTgyMjItNTEwZWJkYThhYzkyXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Howl's Moving Castle",
+        "score": "9/10",
+        "bullets": [
+          "is great in every possible way",
+          "The main characters curse is kinda off putting and makes no sense"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNmM4YTFmMmItMGE3Yy00MmRkLTlmZGEtMzZlOTQzYjk3MzA2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "BioShock Infinite",
+        "sub":"[PC]",
+        "score": "9/10",
+        "bullets": [
+          "Elizabeth great character probably one of the best in any game",
+          "Gameplay great but only 2 guns that's a shame",
+          "Story great",
+          "Ending great",
+          "The music is dope",
+          "That music fits perfectly"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTU3NTYwNDg0NV5BMl5BanBnXkFtZTcwNzAxMTQ2OA@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Perfect Blue",
+        "score": "7/10",
+        "bullets": [
+          "story be very good however the beginning is poo",
+          "Very tense",
+          "Animation compared to other movies at the time is kinda poo",
+          "It blends very well you have to guess at what’s real at some points"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMmMzOWNhNTYtYmY0My00OGJiLWIzNDUtZWRhNGY0NWFjNzFmXkEyXkFqcGdeQXVyNjUxMDQ0MTg@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Akira",
+        "score": "8/10",
+        "bullets": [
+          "soundtrack is so beyond poo",
+          "The whole cyberpunk look is blessed",
+          "The world building is top tier legit feels like a real place",
+          "Story can kinda be jumpy but somehow it feels very real"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNjFmNWYzZjMtYWIyZi00NDVmLWIxY2EtN2RiMjZiMDk4MzcyXkEyXkFqcGdeQXVyMTg2NjYzOA@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "The Garden of Words",
+        "score": "5/10",
+        "bullets": [
+          "looks very pretty",
+          "The whole story concept is weird",
+          "They didn’t smash",
+          "Soundtrack is ok"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTJjZmQ5MGQtMWU0My00ZTMzLWFmNTMtNDgzNmU4Y2MxOGUxXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Paprika",
+        "score": "6/10",
+        "bullets": [
+          "I sleep on this movie around the 30 min mark until the plot picks back up",
+          "I’m pretty sure there’s only one song in this",
+          "The dream stuff is really cool",
+          "The movie is shot extremely well"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDI4MGEwZDAtZDg0Yy00MjFhLTg1MjctODdmZTMyNTUyNDI3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Redline",
+        "score": "5/10",
+        "bullets": [
+          "races are really cool",
+          "Really fast",
+          "Sub plots that pick up and drop at random"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDQ4MzU1NjUtOGE5Mi00MTIyLTk2NjItMGIyM2RiZDNmMDU0L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Millennium Actress",
+        "score": "8/10",
+        "bullets": [
+          "the way it’s shot is really cool using  movies to tell the story",
+          "Everything just kinda fits",
+          "Mad yo boy feel sad"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTAzMTVjYzMtOTBmZi00NjgxLTgwODctYWE0ZGE4N2Q5NDJjXkEyXkFqcGdeQXVyNjUxMDQ0MTg@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Lupin III: The Castle of Cagliostro",
+        "score": "7/10",
+        "bullets": [
+          "character backstories are kinda bad",
+          "This man lupin is trying to get with a girl with an at least 9 year age gap",
+          "Plot tho pretty engaging",
+          "Music pog"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYzYyNjg3OTctNzA2ZS00NjkzLWE4MmYtZDAzZWQ0NzkyMTJhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Fury",
+        "score": "6/10",
+        "bullets": [
+          "the movie does drag on",
+          "I don’t need 2 min to watch a character eat in a bush",
+          "The plot armor is so thick for a movie that’s trying to be realistic",
+          "Characters are actually pretty good for the most part",
+          "Soundtrack fits and some of the shots are cool"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjA4MDU0NTUyN15BMl5BanBnXkFtZTgwMzQxMzY4MjE@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "The Queen's Gambit",
+        "sub":"Season 1",
+        "score": "6/10",
+        "bullets": [
+          "soundtrack is 1 song",
+          "The shots are not very creative basically a pan of a chess board and a shoulder shot",
+          "Main character got hella simps",
+          "all characters are pretty good except in the second last arc (basically why this doesn’t have a higher score)",
+          "Bitch got a pill problem"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BM2EwMmRhMmUtMzBmMS00ZDQ3LTg4OGEtNjlkODk3ZTMxMmJlXkEyXkFqcGdeQXVyMjM5ODk1NDU@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "The Mandalorian",
+        "sub":"Season 2",
+        "score": "8/10",
+        "bullets": [
+          "fire",
+          "The empire gets some happy music and it’s kinda dope",
+          "They showed clone wars characters Owo"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjRlZDIyNDMtZjIwYi00YmJiLTg4NjMtODA2Mjc0YTBlNzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "T",
+        "name": "The Boys",
+        "sub":"Seasons 1 & 2",
+        "score": "8/10",
+        "bullets": [
+          "lots of blood",
+          "Pretty good and interesting story (is predictable tho)",
+          "I don't care about the deep any of his solo scenes ain’t good",
+          "John Dick = Hughie",
+          "Soundtrack is 1 og song and the rest is billy Jole",
+          "Frenchy is the best great character"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTEyNDJhMDAtY2U5ZS00OTMzLTkwODktMjU3MjFkZWVlMGYyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "M",
+        "name": "Warcraft",
+        "score": "3/10",
+        "bullets": [
+          "99.9% cg",
+          "Cg is good tho but looks bad somethimes",
+          "The king can’t act",
+          "Why do they trust this orc she tries to kill them",
+          "Had no idea what was going on ever"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjIwNTM0Mzc5MV5BMl5BanBnXkFtZTgwMDk5NDU1ODE@._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Cyberpunk 2077",
+        "sub":"[PC]",
+        "score": "7/10",
+        "bullets": [
+          "game of the year contender (but covered in bugs)",
+          "Game plays like watchdogs, GTA, and Skyrim in one",
+          "Story is extremely good every quest + side quest has lots of detail",
+          "Graphics be fire",
+          "Driving can suck sometimes",
+          "Didn’t like having to reload saves cuz of broken checkpoints",
+          "Crit damage is very unbalanced",
+          "Stealth does not work very well",
+          "Soundtrack is flames"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMGU4ODVkZDYtYjNiNS00YmFiLWFmOWQtODM2NDRjZDAxNzliXkEyXkFqcGdeQXVyMTI0MzA4NTgw._V1_.jpg"
+      },
+      {
+        "when": 2020,
+        "mediaType": "G",
+        "name": "Spider-Man: Miles Morales",
+        "sub":"[PS5]",
+        "score": "5/10",
+        "bullets": [
+          "every other level is basically go power somthing",
+          "Stealth is broken VERY VERY BROKEN",
+          "Gameplays good and fast + got some fire boss fights"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTFhNWU3MDQtYzJjZi00NjlkLTlkODMtNWRiOGY3OGMxNGQ4XkEyXkFqcGdeQXVyMzIwMjMyMzc@._V1_.jpg"
       }
     ]
   }
 
-  var currentPage = 1;
-  var recordsPerPage = 8;
-  
-  var objJson = []; //holds reviews
-  var reviewTitles = []; //holds review titles
+var currentPage = 1;
+var recordsPerPage = 8;
+
+var objJson = []; //holds reviews
+var reviewTitles = []; //holds review titles
 
 //creates a panel to house a review
 function mkPanel(obj) {
   let panel = "<div id=\"" + (obj.name).toLowerCase(); 
   
   //Make an ID
-  if(obj.mediaType === "T" || obj.mediaType === "G"){
+  if(obj.mediaType === "G" || obj.mediaType === "T" || obj.mediaType === "W"){
   panel += (obj.sub).toLowerCase();
   }
   
@@ -2090,7 +2754,7 @@ function mkPanel(obj) {
   panel += "<div>";
   panel += "<h1 class=\"max-w-2xl mb-4 p-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white\"><span class=\"text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400\">" + obj.name + "</span>";
  
-  if(obj.mediaType === "T" || obj.mediaType === "G"){
+  if(obj.mediaType === "G" || obj.mediaType === "T" || obj.mediaType === "W"){
   panel += " " + obj.sub;
   }
  
@@ -2123,13 +2787,8 @@ function mkPanel(obj) {
   panel += "</ul></div></div>";
  
   return panel;
- }
+}
  
-
-
- 
- 
-
 //creates a year header
 function mkYearHeader(year) {
   let panel = "<div class=\"hero min-h-min bg-base-200\">";
@@ -2164,6 +2823,109 @@ function generateFullList(){
   });
 
 }
+
+/*
+<div class="hero min-h-screen" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-center text-neutral-content">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+      <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
+
+*/
+//make award year panel
+function mkYearsAwards(year, obj) {
+  let panel = "<div class=\"grid grid-col-1\">";
+  panel += "<div>" + mkYearHeader(year) + "</div>";
+
+  obj.forEach((review) => {
+    review.awards.forEach((award) => {
+      if(award == "Entertainer"){
+        panel += "<div class=\"hero min-h-min\" style=\"background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg); box-shadow: 5px 5px 15px #888888;\">";
+        panel += "<div class=\"hero-overlay bg-opacity-60\"></div>";
+        panel += "<div class=\"hero-content text-left text-neutral-content\">";
+        panel += "<div class=\"max-w-md\">";
+        panel += "<h1 class=\"mb-5 text-5xl font-bold\" style=\"text-shadow: 2px 2px 5px black;\">The Best Entertainer of "+review.when+"</h1>";
+        panel += "<h1 class=\"mb-5 text-5xl font-bold\" style=\"text-shadow: 2px 2px 5px black; color: gold;\">" + review.name;
+
+        
+
+ 
+        if(review.sub !== undefined){
+          panel += " " + review.sub;
+        }
+        panel += "</h1>";
+        panel += "</div></div></div>";
+      }
+    });
+ });
+ 
+ 
+  
+  panel += "<div class=\"bg-base-200 flex flex-wrap justify-center items-center align-stretch\">";
+  
+  obj.forEach((review) => {
+  review.awards.forEach((award) => {
+      if(award != "Entertainer"){
+        // Reduce the height value here
+        panel += "<div class=\"card mr-2 ml-2 mt-2 mb-2 w-80 bg-base-100 shadow-xl\" style=\"height: 500px; overflow: auto;\">";
+        panel += "<figure class=\"px-10 pt-10\">";
+        panel += "<img src=\""+review.cover+"\" style=\"width: 100%; height: 100%; object-fit: cover; border-radius: 10px;\" class=\"rounded-xl\" />";
+        panel += "</figure>";
+        panel += "<div class=\"card-body items-center text-center\">";
+        panel += "<h2 class=\"card-title\">The Best " + award + "</h2>";
+        panel += "<h2 class=\"card-title\"><span class=\"text-transparent\" style=\"background-image: linear-gradient(to right, #462523, #f6e27a); -webkit-background-clip: text; -webkit-text-fill-color: transparent;\">" + review.name;
+  
+        if(review.sub !== undefined){
+          panel += " " + review.sub;
+        }
+        panel += "</span></h2>";
+        panel += "</div></div>"
+      }
+    });
+  });
+  
+  panel += "</div>";
+  panel += "</div>";
+  return panel;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+//generate a list for page awards
+function generateFullAwardsList() {
+  let reviewsWithAwards = {};
+  
+  //add reviews
+  data.reviews.forEach((review) => {
+    if(review.awards !== undefined){
+      let currYear = review.when;
+    
+      if(!reviewsWithAwards[currYear]){
+        reviewsWithAwards[currYear] = [];
+      }
+      
+      reviewsWithAwards[currYear].push(review);
+    }
+  });
+ 
+  Object.entries(reviewsWithAwards).reverse().forEach(([year, reviews]) => {
+    objJson.push({adName : mkYearsAwards(year, reviews)}); 
+    reviewTitles.push(year);  
+  });
+}
+ 
+
+
 
 //generate page numbers
 function generatePageNumbers() {
@@ -2284,9 +3046,6 @@ function liveSearch() {
   });
 }
  
- 
- 
-
 let searchBox = document.getElementById('searchbox');
 
 searchBox.addEventListener('keydown', function(event) {
@@ -2298,7 +3057,13 @@ searchBox.addEventListener('keydown', function(event) {
 
 //Initialize page numbers when the window loads
 window.onload = function() {
-  generateFullList()
+
+  if(document.getElementById("reviewPage")){
+    generateFullList()
+  }else if(document.getElementById("awardsPage")){
+    generateFullAwardsList()
+  }
+
   changePage(1);
   generatePageNumbers();
 };
