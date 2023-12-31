@@ -517,7 +517,8 @@ const data = {
           "Animation"
         ],
 
-        "cover": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg"
+        "cover": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
+        "banner":"https://pbs.twimg.com/profile_banners/928758856859000832/1699309241/1500x500"
       },
       {
         "when": 2023,
@@ -978,7 +979,8 @@ const data = {
           "Story"
         ],
 
-        "cover": "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg"
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+        "banner":"https://pbs.twimg.com/profile_banners/1351301870866866178/1658965878/1500x500"
       },
       {
         "when": 2022,
@@ -1640,7 +1642,8 @@ const data = {
           "Story"
         ],
 
-        "cover": "https://static.wikia.nocookie.net/uzumakijunjjiito/images/8/8b/B947810ae7a06dfa2cdad110.L.jpg/revision/latest?cb=20120616045722"
+        "cover": "https://static.wikia.nocookie.net/uzumakijunjjiito/images/8/8b/B947810ae7a06dfa2cdad110.L.jpg/revision/latest?cb=20120616045722",
+        "banner":"https://blog.redbubble.com/wp-content/uploads/2013/11/Uzumaki-header.jpg"
       },
       {
         "when": 2021,
@@ -2494,7 +2497,8 @@ const data = {
           "Story"
         ],
 
-        "cover": "https://m.media-amazon.com/images/M/MV5BNjBkZmI4NzktZTJmMC00NDNlLTk2M2ItNGEwODUxZGEwNmZiXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
+        "cover": "https://m.media-amazon.com/images/M/MV5BNjBkZmI4NzktZTJmMC00NDNlLTk2M2ItNGEwODUxZGEwNmZiXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+        "banner": "https://images.squarespace-cdn.com/content/v1/63031885ce69c14fc6b0d5f2/4fba5f03-b967-4bc1-a7e4-bb03d85f30f4/bioshock-rapture-video-games-wallpaper-48264cda5f2cf7197ef079e2a2a91b80.jpg"
       },
       {
         "when": 2020,
@@ -2819,24 +2823,20 @@ function generateFullList(){
 
     //adds review to list
     objJson.push({adName : mkPanel(review)}); 
-    reviewTitles.push(review.name);   
+    reviewTitles.push(review.name);
+    
+    
   });
 
+  if(objJson.length % recordsPerPage !== 0){
+    let missingRecords = recordsPerPage - (objJson.length % recordsPerPage);
+    for(let i = 0; i < missingRecords; i++){
+      objJson.push({adName : mkYearHeader("Comming soon")});
+    }
+   }
+   
 }
 
-/*
-<div class="hero min-h-screen" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-  <div class="hero-overlay bg-opacity-60"></div>
-  <div class="hero-content text-center text-neutral-content">
-    <div class="max-w-md">
-      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-      <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button class="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
-
-*/
 //make award year panel
 function mkYearsAwards(year, obj) {
   let panel = "<div class=\"grid grid-col-1\">";
@@ -2845,16 +2845,13 @@ function mkYearsAwards(year, obj) {
   obj.forEach((review) => {
     review.awards.forEach((award) => {
       if(award == "Entertainer"){
-        panel += "<div class=\"hero min-h-min\" style=\"background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg); box-shadow: 5px 5px 15px #888888;\">";
+        panel += "<div class=\"hero min-h-min\" style=\"background-image: url("+review.banner+"); box-shadow: 5px 5px 15px #888888;\">";
         panel += "<div class=\"hero-overlay bg-opacity-60\"></div>";
         panel += "<div class=\"hero-content text-left text-neutral-content\">";
         panel += "<div class=\"max-w-md\">";
         panel += "<h1 class=\"mb-5 text-5xl font-bold\" style=\"text-shadow: 2px 2px 5px black;\">The Best Entertainer of "+review.when+"</h1>";
         panel += "<h1 class=\"mb-5 text-5xl font-bold\" style=\"text-shadow: 2px 2px 5px black; color: gold;\">" + review.name;
 
-        
-
- 
         if(review.sub !== undefined){
           panel += " " + review.sub;
         }
@@ -2894,13 +2891,6 @@ function mkYearsAwards(year, obj) {
   return panel;
   }
  
- 
- 
- 
- 
- 
- 
- 
 //generate a list for page awards
 function generateFullAwardsList() {
   let reviewsWithAwards = {};
@@ -2922,6 +2912,13 @@ function generateFullAwardsList() {
     objJson.push({adName : mkYearsAwards(year, reviews)}); 
     reviewTitles.push(year);  
   });
+
+  if(objJson.length % recordsPerPage !== 0){
+    let missingRecords = recordsPerPage - (objJson.length % recordsPerPage);
+    for(let i = 0; i < missingRecords; i++){
+      objJson.push({adName : mkYearHeader("Comming soon")});
+    }
+   }
 }
  
 
