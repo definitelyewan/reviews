@@ -11,6 +11,18 @@
     <!--Add tailwind and daisy ui css-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      li {
+        word-wrap: break-word; /* IE */
+        overflow-wrap: break-word; /* modern browsers */
+        white-space: normal;
+        max-width: 50ch; /* 50 characters */
+      }
+      .navbar {
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+      }
+  
+      </style>
   </head>
   <body>
 
@@ -38,7 +50,7 @@
        </div>
       </div>
 
-      <div id="listingTable"></div>
+      <div class="grid grid-col-1" id="listingTable"></div>
       
       <div class="grid grid-col-1 bg-base-200">
         <div class="flex bg-base-200 mb-5 items-center justify-center">

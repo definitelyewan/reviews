@@ -3,6 +3,18 @@ const data = {
       {
         "when": 2023,
         "mediaType": "M",
+        "name": "The Iron Claw",
+        "score": "7/10",
+        "bullets": [
+          "the dad = the von-erichs curse",
+          "there was a 5th brother",
+          "it really sucks to be any of these guys"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNjI2ODIzNmItODc2NS00NTI2LTk3NjEtNzdhMTFjMzI2NDZmXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg"
+      },
+      {
+        "when": 2023,
+        "mediaType": "M",
         "name": "The Boy and the Heron",
         "score": "6/10",
         "bullets": [
@@ -2745,51 +2757,45 @@ var reviewTitles = []; //holds review titles
 
 //creates a panel to house a review
 function mkPanel(obj) {
-  let panel = "<div id=\"" + (obj.name).toLowerCase(); 
+  let panel = "<div class=\"grid grid-cols-1 gap-4 bg-base-200 items-center justify-center\">";
+  panel += "<div class=\"card mr-2 ml-2 mt-2 mb-2 bg-base-100 shadow-xl overflow-auto\">";
   
-  //Make an ID
-  if(obj.mediaType === "G" || obj.mediaType === "T" || obj.mediaType === "W"){
-  panel += (obj.sub).toLowerCase();
-  }
+  panel += "<figure class=\"px-10 pt-10\">";
+  panel += "<img src=\""+obj.cover+"\" style=\"height: 400px;\" class=\"object-cover object-center rounded-xl\" />";
+  panel += "</figure>";
   
-  panel += "\" class=\"hero min-h-min max-w-screen bg-base-200 flex justify-center items-center\">";
-  panel += "<div class=\"hero-content flex flex-col space-y-5 justify-between\">";
-  panel += "<img src=" + obj.cover + " class=\"w-64 max-h-[400px] object-cover rounded-lg shadow-2xl overflow-hidden\"/>";
-  panel += "<div>";
-  panel += "<h1 class=\"max-w-2xl mb-4 p-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white\"><span class=\"text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400\">" + obj.name + "</span>";
- 
+  panel += "<div class=\"card-body items-center text-center\">";
+  panel += "<h1 class=\"max-w-2xl p-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white\"><span class=\"text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400\">" + obj.name + "</span>";
+  
   if(obj.mediaType === "G" || obj.mediaType === "T" || obj.mediaType === "W"){
   panel += " " + obj.sub;
   }
- 
-  panel += "</h1>";
   panel += "<h1 class=\"text-5xl font-bold max-w-md m-4\">" + obj.score + "</h1>";
-  panel += "<h2 class=\"mt-5 text-3xl font-bold max-w-md m-4\">Notes:</h2>";
- 
+  
+  panel += "<h2 class=\"mt-2 text-3xl font-bold max-w-md m-4\">Notes:</h2>";
+  
   //list stuff
-  panel += "<ul class=\"ml-8 list-disc\">";
- 
+  panel += "<ul class=\"text-left list-disc\">";
+  
   obj.bullets.forEach((bullet) => {
-    let formattedBullet = "";
-    let words = bullet.split(" ");
-    let currentLineLength = 0;
-   
-    words.forEach((word) => {
-      if ((currentLineLength + word.length) <= 50) {
-        formattedBullet += word + " ";
-        currentLineLength += word.length + 1;
-      } else {
-        formattedBullet += "\n" + word + " ";
-        currentLineLength = word.length + 1;
-      }
-    });
-   
-    panel += "<li class=\"whitespace-normal\">" + formattedBullet + "</li>"; 
-   });
-   
- 
-  panel += "</ul></div></div>";
- 
+  let formattedBullet = "";
+  let words = bullet.split(" ");
+  let currentLineLength = 0;
+  
+  words.forEach((word) => {
+  if ((currentLineLength + word.length) <= 50) {
+    formattedBullet += word + " ";
+    currentLineLength += word.length + 1;
+  } else {
+    formattedBullet += "\n" + word + " ";
+    currentLineLength = word.length + 1;
+  }
+  });
+  
+  panel += "<li class=\"whitespace-normal\">" + formattedBullet + "</li>"; 
+  });
+  
+  panel += "</div></div></div>"
   return panel;
 }
  
@@ -2834,6 +2840,7 @@ function generateFullList(){
       objJson.push({adName : mkYearHeader("Comming soon")});
     }
    }
+
    
 }
 
@@ -2920,9 +2927,6 @@ function generateFullAwardsList() {
     }
    }
 }
- 
-
-
 
 //generate page numbers
 function generatePageNumbers() {
