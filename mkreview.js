@@ -673,7 +673,7 @@ const data = {
         "mediaType": "T",
         "name": "Formula 1: Drive to Survive",
         "sub": "Season 5",
-        "score": "6/10",
+        "score": "3/10",
         "bullets": [
           "repeat interview questions",
           "Makes a bunch up"
