@@ -1,6 +1,18 @@
 const data = {
     "reviews": [
       {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "3 Idiots",
+        "score": "5/10",
+        "bullets": [
+          "son are you an engineer yet?",
+          "mean mustache man has more bodies then dahmer",
+          "is the whole finding rancho part needed? like this movie could be an hour shroter"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+      },
+      {
         "when": 2023,
         "mediaType": "M",
         "name": "The Iron Claw",
