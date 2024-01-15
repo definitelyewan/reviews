@@ -2,6 +2,19 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "T",
+        "name": "Grey's Anatomy",
+        "sub":"Season 19",
+        "score": "2/10",
+        "bullets": [
+          "nothing happens",
+          "they have done every plot line already at least twice",
+          "still crack tho"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODA2Mjk0N2MtNGY0Mi00ZWFjLTkxODEtZDFjNDg4ZDliMGVmXkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "M",
         "name": "3 Idiots",
         "score": "5/10",
