@@ -2,6 +2,29 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "M",
+        "name": "South Park (Not Suitable for Children)",
+        "score": "5/10",
+        "bullets": [
+          "The best part of this is when they kill Logan Paul",
+          "drink prime drink prime drink prime drink prime drink prime drink prime drink prime dirnk prime drink prime"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZmFhNTMzNWMtZmVmNy00MTZjLThiODMtMjNmZmZmNTg3MzBhXkEyXkFqcGdeQXVyMTc0MjIyODQ3._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "South Park: Joining the Panderverse",
+        "score": "6/10",
+        "bullets": [
+          "Absurde just like any other South Park episode",
+          "I dont really see why this needed to be a special and the A and B plot couldnt of been their own episodes",
+          "AI b plot is really funny"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNTAxODY5ZmUtNjJhMC00YWQ0LWFlYjQtZmQ4NjZmOTAyYmY5XkEyXkFqcGdeQXVyNjkyNzI2MTQ@._V1_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "T",
         "name": "Grey's Anatomy",
         "sub":"Season 19",
