@@ -1476,7 +1476,7 @@ const data = {
         "when": 2022,
         "mediaType": "T",
         "name": "Grey's Anatomy",
-        "sub": "Season 1-17",
+        "sub": "Season 1-18",
         "score": "1/10",
         "bullets": [
           "Show is actually pretty decent seasons 1-4½ Aka only good when characters are interns cuz they fail all the time",
