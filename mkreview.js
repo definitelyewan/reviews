@@ -555,7 +555,7 @@ const data = {
         ],
 
         "cover": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
-        "banner":"https://pbs.twimg.com/profile_banners/928758856859000832/1699309241/1500x500"
+        "banner":"https://www.spider-verse-tix.ca/assets/images/mobilebanner.jpg"
       },
       {
         "when": 2023,
