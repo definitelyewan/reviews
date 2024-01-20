@@ -3,6 +3,19 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Om Shanti Om",
+        "score": "7/10",
+        "bullets": [
+          "The past is so so good",
+          "songs arnt bad",
+          "how does Om not figure out who he is earlier hes got this old family going after him",
+          "slower in the middle but picks up again"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BY2QwMzZjN2MtYjk0My00OThhLWFmNjAtZTFkM2NkNTkwYTFlXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "South Park (Not Suitable for Children)",
         "score": "5/10",
         "bullets": [
