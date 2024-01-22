@@ -6,7 +6,7 @@ const data = {
         "name": "Main Hoon Na",
         "score": "8/10",
         "bullets": [
-          "quite possibly one of the most insane thing ever recorded",
+          "Quite possibly one of the most insane things ever recorded",
           "Farah Khan can do no wrong"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BODVkNjU4NGMtODMwNi00ZWU4LWI3ZmYtNjgxNzIyNjY5MmI1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
