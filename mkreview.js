@@ -3,6 +3,17 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Main Hoon Na",
+        "score": "8/10",
+        "bullets": [
+          "quite possibly one of the most insane thing ever recorded",
+          "Farah Khan can do no wrong"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODVkNjU4NGMtODMwNi00ZWU4LWI3ZmYtNjgxNzIyNjY5MmI1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Om Shanti Om",
         "score": "7/10",
         "bullets": [
