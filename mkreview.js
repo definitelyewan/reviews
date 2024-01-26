@@ -3,6 +3,45 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Carrie",  
+        "score": "6/10",
+        "bullets": [
+          "Finding out she has powers actually makes sense",
+          "Theres so much fire on god",
+          "I guess it just fucking sucks to Carrie",
+          "The prom rampage is so well done man"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTlhNmVkZGUtNjdjOC00YWY3LTljZWQtMTY1YWFhNGYwNDQwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "Carrie 2002",
+        "score": "1/10",
+        "bullets": [
+          "This movie does not need to be this long",
+          "She always had powers i guess so why is it a new thing???",
+          "It still has the commercial fade in and outs",
+          "😂",
+          "How does her mom not know she has powers she made it rain meteors 😂"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNTJiNzAxZTktZjcxZS00ZTg3LWI0ODItNTFkOWQ1YWZlMDY3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "Carrie 2013",
+        "score": "3/10",
+        "bullets": [
+          "Yah bro let me post it online",
+          "It rains stones 😂",
+          "They kill an mf with a bucket"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODg2MDU2MjYxNl5BMl5BanBnXkFtZTcwMDQ5MzU0OQ@@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Main Hoon Na",
         "score": "8/10",
         "bullets": [
