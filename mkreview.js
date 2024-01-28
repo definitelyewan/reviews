@@ -10,7 +10,7 @@ const data = {
           "an absolute snooze fest if you watched before 7pm",
           "fire freeloaders oliver, daunyay, fatty, and frank",
           "loved the swamp olympics and christmas eve",
-          "loved all the fish who made it past week 2 bryan, trish, TJ, cole, and tay",
+          "loved all the fish who made it past week 2 bryan, jimmy, trish, TJ, cole, and tay",
           "best TTS is oliver gay"
         ],
         "cover": "https://cdn.shopify.com/s/files/1/0738/3895/2728/files/7198873269154167314_2048.jpg?v=1705431216"
