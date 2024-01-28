@@ -1,6 +1,21 @@
 const data = {
     "reviews": [
-      {
+    {
+        "when": 2024,
+        "mediaType": "T",
+        "name": "Fishtank",
+        "sub":"season 2", 
+        "score": "9/10",
+        "bullets": [
+          "an absolute snooze fest if you watched before 7pm",
+          "fire freeloaders oliver, daunyay, fatty, and frank",
+          "loved the swamp olympics and christmas eve",
+          "loved all the fish who made it past week 2 bryan, trish, TJ, cole, and tay",
+          "best TTS is oliver gay"
+        ],
+        "cover": "https://cdn.shopify.com/s/files/1/0738/3895/2728/files/7198873269154167314_2048.jpg?v=1705431216"
+    },
+    {
         "when": 2024,
         "mediaType": "M",
         "name": "Carrie",  
