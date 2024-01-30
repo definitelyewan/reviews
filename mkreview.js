@@ -3,9 +3,23 @@ const data = {
     {
         "when": 2024,
         "mediaType": "T",
+        "name": "Blue Eye Samurai",
+        "sub":"Season 1", 
+        "score": "5/10",
+        "bullets": [
+          "animation is inconsistent sometimes it looks like Arcane and sometimes it looks trash",
+          "story drags at the beginning but gets real good at the end",
+          "nobody realizing Mizu is a girl is crazy",
+          "doesnt really follow its own rules but its still a decent revenge type story"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDg5YjhiNmUtYjI5NC00MDEyLWI5MjUtZTRhM2EwZGZhNWM3XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "when": 2024,
+        "mediaType": "W",
         "name": "Fishtank",
-        "sub":"season 2", 
-        "score": "9/10",
+        "sub":"Season 2", 
+        "score": "8/10",
         "bullets": [
           "an absolute snooze fest if you watched before 7pm",
           "fire freeloaders oliver, daunyay, fatty, and frank",
