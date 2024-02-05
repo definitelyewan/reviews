@@ -1,6 +1,17 @@
 const data = {
     "reviews": [
-    {
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "Halloween 2007", 
+        "score": "4/10",
+        "bullets": [
+          "Guns man, you live in the US",
+          "has some corny old timy voice lines over static black in white footage sections"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTMzOTg4MzcxNF5BMl5BanBnXkFtZTcwMzY5MDE1MQ@@._V1_.jpg"
+      },
+      {
         "when": 2024,
         "mediaType": "T",
         "name": "Blue Eye Samurai",
@@ -13,8 +24,8 @@ const data = {
           "doesnt really follow its own rules but its still a decent revenge type story"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BNDg5YjhiNmUtYjI5NC00MDEyLWI5MjUtZTRhM2EwZGZhNWM3XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg"
-    },
-    {
+      },
+      {
         "when": 2024,
         "mediaType": "W",
         "name": "Fishtank",
@@ -28,8 +39,8 @@ const data = {
           "best TTS is oliver gay"
         ],
         "cover": "https://cdn.shopify.com/s/files/1/0738/3895/2728/files/7198873269154167314_2048.jpg?v=1705431216"
-    },
-    {
+      },
+      {
         "when": 2024,
         "mediaType": "M",
         "name": "Carrie",  
