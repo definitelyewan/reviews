@@ -2,6 +2,20 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "G",
+        "name": "Spider-Man 2", 
+        "sub": "[PS5]",
+        "score": "6/10",
+        "bullets": [
+          "This game was not designed for you to have max movment upgrades",
+          "Story is a little rushed at the end but overall is ok",
+          "Prefered the side content of the original game",
+          "Spider-man > Spider-man 2 > Spider-man Miles Morales"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDM5Yzg3OGItNzJiMS00MTNlLTg2NmQtZmZlNDYyZjMxYjAxXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "M",
         "name": "Halloween 2007", 
         "score": "4/10",
