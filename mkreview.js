@@ -3,7 +3,7 @@ const data = {
       {
         "when": 2024,
         "mediaType": "T",
-        "name": "Spider-Man 2The Ultimatum: Marry or Move On", 
+        "name": "The Ultimatum: Marry or Move On", 
         "sub": "Season 1 & 2",
         "score": "5/10",
         "bullets": [
