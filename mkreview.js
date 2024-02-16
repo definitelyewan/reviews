@@ -2,6 +2,20 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "T",
+        "name": "Spider-Man 2The Ultimatum: Marry or Move On", 
+        "sub": "Season 1 & 2",
+        "score": "5/10",
+        "bullets": [
+          "Season 1 >>>>>>>>>>> season 2",
+          "going on this show should mean your relationship was already doomed",
+          "💀😂"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODM1MTU4N2YtODg5NS00Mjk5LWE5NDgtN2VkYTRmZjRiOGUwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+      },
+      
+      {
+        "when": 2024,
         "mediaType": "G",
         "name": "Spider-Man 2", 
         "sub": "[PS5]",
