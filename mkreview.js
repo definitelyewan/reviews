@@ -2,6 +2,29 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "B",
+        "name": "Remina", 
+        "score": "6/10",
+        "bullets": [
+          "Arts pretty good",
+          "Forshadowing, forshadowing, forshadowing..."
+        ],
+        "cover": "https://m.media-amazon.com/images/I/91CcnCmahCL._SL1500_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "The Holdovers", 
+        "score": "9/10",
+        "bullets": [
+          "🥲",
+          "Theyre putting something in my food",
+          "Mean man bonds with angry boy"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNDc2MzNkMjMtZDY5NC00NmQ0LWI1NjctZjRhNWIzZjc4MGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "T",
         "name": "The Ultimatum: Marry or Move On", 
         "sub": "Season 1 & 2",
@@ -13,7 +36,6 @@ const data = {
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BODM1MTU4N2YtODg5NS00Mjk5LWE5NDgtN2VkYTRmZjRiOGUwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
       },
-      
       {
         "when": 2024,
         "mediaType": "G",
