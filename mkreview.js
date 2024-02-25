@@ -3,6 +3,30 @@ const data = {
       {
         "when": 2024,
         "mediaType": "B",
+        "name": "Fragments of Horror", 
+        "score": "3/10",
+        "bullets": [
+          "truly Fragments",
+          "If these were longer i bet they would be better"
+        ],
+        "cover": "https://m.media-amazon.com/images/I/91TpZCooDXL._SL1500_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "Suzume", 
+        "score": "6/10",
+        "bullets": [
+          "Story becomes a mess about 75% of the way through",
+          "Animation is crazy",
+          "So much detail",
+          "They do the same thing all the time and act like their not"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjBhYWMwZDAtYzZjOC00YmM3LTg5N2YtNTdlNGZlZDIzMzViXkEyXkFqcGdeQXVyMTY4OTY5NjEw._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "B",
         "name": "Remina", 
         "score": "6/10",
         "bullets": [
