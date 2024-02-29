@@ -2,6 +2,31 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "M",
+        "name": "Evangelion: 1.0 You Are (Not) Alone", 
+        "score": "5/10",
+        "bullets": [
+          "More focused on the mech fights then shitting on shinji",
+          "Doesnt have that 90s animation",
+          "Streamlined firs half of the show"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTRlMWYxM2UtYTcwNy00NmMzLTk5YTgtNWZjYmVlMThmODQxXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "T",
+        "name": "The Ultimatum: Queer Love",
+        "sub": "Season 1", 
+        "score": "8/10",
+        "bullets": [
+          "Perfect casting",
+          "New Drama every 15 minutes its kinda crazy",
+          "Theres just so so much main character syndrome"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjcwOGQzODctMzRhZi00MDk4LTlkYTEtMDVmYjBhYmI3NWFhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "B",
         "name": "Fragments of Horror", 
         "score": "3/10",
