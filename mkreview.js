@@ -4,7 +4,7 @@ const data = {
         "when": 2024,
         "mediaType": "M",
         "name": "Evangelion: 2.0 You Can (Not) Advance", 
-        "score": "5/10",
+        "score": "4/10",
         "bullets": [
           "The new girl feels really shoehorned in like the beginning part is fine but later...",
           "streamlined second part of the show but they still dont shit on shinji enough here",
