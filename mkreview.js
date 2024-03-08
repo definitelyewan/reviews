@@ -3,12 +3,24 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Evangelion: 2.0 You Can (Not) Advance", 
+        "score": "5/10",
+        "bullets": [
+          "The new girl feels really shoehorned in like the beginning part is fine but later...",
+          "streamlined second part of the show but they still dont shit on shinji enough here",
+          "it has some \"fan service\" and it really really shouldnt like really shouldnt"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNTkxMTU3MjktNzI5Yi00ZWZkLTk2YWItNGM5ODYyZGI1NWJlXkEyXkFqcGdeQXVyMTI3NTAxOTU0._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Evangelion: 1.0 You Are (Not) Alone", 
         "score": "5/10",
         "bullets": [
           "More focused on the mech fights then shitting on shinji",
           "Doesnt have that 90s animation",
-          "Streamlined firs half of the show"
+          "Streamlined first half of the show"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BMTRlMWYxM2UtYTcwNy00NmMzLTk5YTgtNWZjYmVlMThmODQxXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_.jpg"
       },
