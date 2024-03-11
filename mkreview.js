@@ -2,6 +2,45 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "T",
+        "name": "The Bear",
+        "sub":"Seasons 1 & 2", 
+        "score": "8/10",
+        "bullets": [
+          "Cousin, Jeff",
+          "So much screaming",
+          "All the characters are good",
+          "If it could go wrong these guys had to deal with it"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYmM4MjBkNGMtZjE5Zi00ZDMwLWE5MjYtN2M0MTM2YTQ2MmNlXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "Evangelion: 3.0+1.01 Thrice Upon a Time", 
+        "score": "4/10",
+        "bullets": [
+          "Still going absolutly wacko",
+          "They spend more then half the movie in this one village",
+          "People just appear for no reason",
+          "the orange goo wakes a return"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYjJmZDc0ZTEtZTM5Ni00MGQwLWFkNGMtYjZhMTEzODkwZGFkXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "Evangelion: 3.0 You Can (Not) Redo", 
+        "score": "6/10",
+        "bullets": [
+          "This is completely different",
+          "They finally shit on shinji lets go",
+          "they went full wacko with this one and the lore still makes little sense"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYjI5Zjg0MDItODc5Yi00NzM4LWFmYzctOTg4ZDZiYmZkYjdiXkEyXkFqcGdeQXVyNTkwNzYyODM@._V1_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "M",
         "name": "Evangelion: 2.0 You Can (Not) Advance", 
         "score": "4/10",
