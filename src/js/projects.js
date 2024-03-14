@@ -3,20 +3,17 @@ const projectData = {
         {
             "name" : "ByteStream",
             "info" : "A C library for manipulating an array data structure like you would a file with support for unicode.",
-            "source": "https://github.com/definitelyewan/ByteStream",
-            "logo" : "./images/bytestreamlogo.png"
+            "source": "https://github.com/definitelyewan/ByteStream"
         },
         {
             "name" : "id3dev",
             "info" : "A C library for parsing, manipulating, reading, and writing any version of ID3 metadata commonly found in MP3 files.",
-            "source" : "https://github.com/definitelyewan/id3dev",
-            "logo" : "./images/id3devlogo.png"
+            "source" : "https://github.com/definitelyewan/id3dev"
         },
         {
             "name" : "Review Doc",
             "info" : "A simple website for logging all of the TV shows, movies, and video games I've seen or played",
-            "source" : "reviews/index.html",
-            "logo" : "./images/reviewdoclogo.png"
+            "source" : "reviews/index.html"
         }
     ]
 }
@@ -27,15 +24,7 @@ function projectCarousel(){
 
     projectData.projects.forEach(project => {
         let card = document.createElement("div");
-
         card.classList.add("mt-2", "mb-2", "mr-2", "ml-2", "bg-white", "border", "border-gray-200", "rounded-lg", "shadow", "dark:bg-gray-800", "dark:border-gray-700");
-        
-
-        let logo = document.createElement("img");
-        logo.classList.add("ml-3","mr-3", "mt-2", "rounded-t-lg");
-        logo.src = project.logo;
-
-        card.appendChild(logo)
 
         let body = document.createElement("div");
         body.classList.add("p-5");
