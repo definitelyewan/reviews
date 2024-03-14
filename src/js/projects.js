@@ -32,7 +32,7 @@ function projectCarousel(){
         
 
         let logo = document.createElement("img");
-        logo.classList.add("ml-3", "mt-2", "rounded-t-lg");
+        logo.classList.add("ml-3","mr-3", "mt-2", "rounded-t-lg");
         logo.src = project.logo;
 
         card.appendChild(logo)
