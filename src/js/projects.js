@@ -4,19 +4,19 @@ const projectData = {
             "name" : "ByteStream",
             "info" : "A C library for manipulating an array data structure like you would a file with support for unicode.",
             "source": "https://github.com/definitelyewan/ByteStream",
-            "logo" : "../images/bytestreamlogo.png"
+            "logo" : "./images/bytestreamlogo.png"
         },
         {
             "name" : "id3dev",
             "info" : "A C library for parsing, manipulating, reading, and writing any version of ID3 metadata commonly found in MP3 files.",
             "source" : "https://github.com/definitelyewan/id3dev",
-            "logo" : "../images/id3devlogo.png"
+            "logo" : "./images/id3devlogo.png"
         },
         {
             "name" : "Review Doc",
             "info" : "A simple website for logging all of the TV shows, movies, and video games I've seen or played",
             "source" : "reviews/index.html",
-            "logo" : "../images/reviewdoclogo.png"
+            "logo" : "./images/reviewdoclogo.png"
         }
     ]
 }
