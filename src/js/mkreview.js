@@ -2,6 +2,20 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "M",
+        "name": "Dune: Part 2", 
+        "score": "9/10",
+        "bullets": [
+          "H. G Giger made the Harkonnen?",
+          "A more action heavy Dune 1",
+          "CG still goes crazy",
+          "Better in every way when compared to the first one",
+          "Visually distinct and doesn't feel like generic sci-fi"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BN2QyZGU4ZDctOWMzMy00NTc5LThlOGQtODhmNDI1NmY5YzAwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "T",
         "name": "The Bear",
         "sub":"Seasons 1 & 2", 
