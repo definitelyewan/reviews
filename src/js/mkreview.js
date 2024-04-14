@@ -1,5 +1,20 @@
 const data = {
     "reviews": [
+      
+      {
+        "when": 2024,
+        "mediaType": "G",
+        "sub": "[PC]",
+        "name": "The Finals", 
+        "score": "5/10",
+        "bullets": [
+          "Fun for a bit but the meta got gross",
+          "Not a great solo que experiance",
+          "Only fast cash was not a sweat fest for some reason",
+          "Destruction is cool and all but it just makes me wanna play battlefield 4"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjM0OGNkMDctNzcyMC00YzgyLTk4OTMtOTliZjZmYjQxNmZlXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+      },
       {
         "when": 2024,
         "mediaType": "M",
@@ -17,9 +32,9 @@ const data = {
         "name": "House", 
         "score": "3/10",
         "bullets": [
-          "silly willy",
+          "Silly willy",
           "I get that its old but these effects are not good",
-          "looks like a highschool play or a soap tbh"
+          "Looks like a highschool play or a soap tbh"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BMTk2NTU4M2UtNWI0Ni00Y2Y3LWE2YWUtZDVjYjFmMjVkZTYyXkEyXkFqcGdeQXVyNTgzMzU5MDI@._V1_.jpg"
       },
