@@ -3,6 +3,29 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Rush Hour", 
+        "score": "5/10",
+        "bullets": [
+          "Just a kung-fu movie",
+          "most jokes are just light racism"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYWM2NDZmYmYtNzlmZC00M2MyLWJmOGUtMjhiYmQ2OGU1YTE1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "House", 
+        "score": "3/10",
+        "bullets": [
+          "silly willy",
+          "I get that its old but these effects are not good",
+          "looks like a highschool play or a soap tbh"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMTk2NTU4M2UtNWI0Ni00Y2Y3LWE2YWUtZDVjYjFmMjVkZTYyXkEyXkFqcGdeQXVyNTgzMzU5MDI@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Dune: Part 2", 
         "score": "9/10",
         "bullets": [
