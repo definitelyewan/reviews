@@ -1,19 +1,29 @@
 const data = {
     "reviews": [
-      
       {
         "when": 2024,
-        "mediaType": "G",
-        "sub": "[PC]",
-        "name": "The Finals", 
-        "score": "5/10",
+        "mediaType": "M",
+        "name": "Invincible: Atom Eve", 
+        "score": "9/10",
         "bullets": [
-          "Fun for a bit but the meta got gross",
-          "Not a great solo que experiance",
-          "Only fast cash was not a sweat fest for some reason",
+          "probably the best episode of Invincible",
+          "gotta suck to be Eves extended family"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTM3OTI4NDEtOTVkNy00OGI2LThhNjYtNDUzZTYzYWVjYjhhXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "T",
+        "sub": "Season 2",
+        "name": "Invincible", 
+        "score": "8/10",
+        "bullets": [
+          "Just as good as the first season",
+          "Animation is way way way better then the first",
+          "why did they split the season up just why?",
           "Destruction is cool and all but it just makes me wanna play battlefield 4"
         ],
-        "cover": "https://m.media-amazon.com/images/M/MV5BMjM0OGNkMDctNzcyMC00YzgyLTk4OTMtOTliZjZmYjQxNmZlXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
+        "cover": "https://m.media-amazon.com/images/M/MV5BZGY2ZTQxZGUtZDY2ZC00Mjc5LTlkZWQtNTA5YjUwOTIxYjEzXkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_.jpg"
       },
       {
         "when": 2024,
