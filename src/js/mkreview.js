@@ -3,6 +3,19 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Late Night with the Devil", 
+        "score": "5/10",
+        "bullets": [
+          "Only gets good when Lucy shows up",
+          "This girls gotta stop looking straight into the camera",
+          "Mr. wiggles got bare problems",
+          "Pretty much structured like a Jimmy Falon show without fake laughing"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZTJjMWYyZDktODdmMC00MDA0LWJlNTgtZjcwODk1OTI1MzBhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Invincible: Atom Eve", 
         "score": "9/10",
         "bullets": [
