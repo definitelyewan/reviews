@@ -11,7 +11,7 @@ const data = {
           "If this movie happened in real life the main cast would be dead pretty much the moment they got to the front lines",
           "War crimes, war crimes, war crimes"
         ],
-        "cover": "https://m.media-amazon.com/images/M/MV5BY2Y5Yzk4NGYtZTI2Yi00Zjk4LWIwZmQtMmFlZDQ5YmNjYzE5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_UY1200_CR90,0,630,1200_AL_.jpg"
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTYyODhlODktYjUzNC00NjUyLWI1MzYtNmI0MTY3YTUxYjY2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
       },
       {
         "when": 2024,
