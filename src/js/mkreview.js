@@ -3,6 +3,19 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Civil War", 
+        "score": "6/10",
+        "bullets": [
+          "Weak beginning and end but one hella strong middle",
+          "What did the presedent do to make Texas and California agree ok something",
+          "If this movie happened in real life the main cast would be dead pretty much the moment they got to the front lines",
+          "War crimes, war crimes, war crimes"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BY2Y5Yzk4NGYtZTI2Yi00Zjk4LWIwZmQtMmFlZDQ5YmNjYzE5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_UY1200_CR90,0,630,1200_AL_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Late Night with the Devil", 
         "score": "5/10",
         "bullets": [
