@@ -7,7 +7,7 @@ const data = {
         "score": "6/10",
         "bullets": [
           "Weak beginning and end but one hella strong middle",
-          "What did the presedent do to make Texas and California agree ok something",
+          "What did the presedent do to make Texas and California agree on something",
           "If this movie happened in real life the main cast would be dead pretty much the moment they got to the front lines",
           "War crimes, war crimes, war crimes"
         ],
