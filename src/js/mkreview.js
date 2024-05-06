@@ -3,6 +3,29 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Red Notice", 
+        "score": "2/10",
+        "bullets": [
+          "The action movie equivalent of watching paint dry"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "T",
+        "name": "Star Wars: The Bad Batch", 
+        "score": "5/10",
+        "sub": "Season 3",
+        "bullets": [
+          "Not the biggest fan of the new dog character",
+          "Solid ending to the show",
+          "What Project necromancer is was a little confusing but whaterver"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZWU5Mjg5ZDctOWZmMi00ZjQ4LTkzYzYtY2FkY2E4YWIxMGNkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Civil War", 
         "score": "6/10",
         "bullets": [
