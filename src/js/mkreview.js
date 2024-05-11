@@ -3,6 +3,17 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "This Place Rules", 
+        "score": "5/10",
+        "bullets": [
+          "He's put better stuff on youtube",
+          "The more formal interviews are not that great"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZTQyZTBkYzAtZWQ3My00Mzc2LTk4YmItOGE0Njg3MWU1ZTU2XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Red Notice", 
         "score": "2/10",
         "bullets": [
