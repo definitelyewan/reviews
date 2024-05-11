@@ -3,6 +3,18 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Priscilla", 
+        "score": "4/10",
+        "bullets": [
+          "1hr of Elvis trying to get with a 14 year old 💀",
+          "Pretty boring until Elvis starts gaslighting and gate keeping Priscilla",
+          "They play techno mucis when they go go karting for some reason but besides that the soundtracks pretty good"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BOTQyZTBiMjAtZTNjZi00ZjU0LWFkMTQtMDE3Nzc1MjVmMTM4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "This Place Rules", 
         "score": "5/10",
         "bullets": [
