@@ -9,7 +9,7 @@ const data = {
           "Pretty much nails the noir aesthetic and soundtrack",
           "Some story bits dont make much sense like the ending"
         ],
-        "cover": "https://m.media-amazon.com/images/M/MV5BODJlZjg1NmQtNGE4MS00YTNiLWEzN2ItYTZiYjJmZTBiMWI4XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
+        "cover": "https://m.media-amazon.com/images/M/MV5BZWZhYjk2YjktNDgzOC00NjViLTliODgtY2U1ZmNmM2U5NThmXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg"
       },
       {
         "when": 2024,
