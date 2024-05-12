@@ -3,12 +3,23 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Le Samouraï", 
+        "score": "7/10",
+        "bullets": [
+          "Pretty much nails the noir aesthetic and soundtrack",
+          "Some story bits dont make much sense like the ending"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BODJlZjg1NmQtNGE4MS00YTNiLWEzN2ItYTZiYjJmZTBiMWI4XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Priscilla", 
         "score": "4/10",
         "bullets": [
           "1hr of Elvis trying to get with a 14 year old 💀",
           "Pretty boring until Elvis starts gaslighting and gate keeping Priscilla",
-          "They play techno mucis when they go go karting for some reason but besides that the soundtracks pretty good"
+          "They play techno music when they go go karting for some reason but besides that the soundtracks pretty good"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BOTQyZTBiMjAtZTNjZi00ZjU0LWFkMTQtMDE3Nzc1MjVmMTM4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg"
       },
