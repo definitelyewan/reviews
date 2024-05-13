@@ -3,6 +3,18 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Boogie Nights", 
+        "score": "7/10",
+        "bullets": [
+          "10/10 movie to watch with you parents",
+          "Rock bottom simulator",
+          "What a fun new years party yippie"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BY2E2YWYxY2QtZmJmZi00MjJlLWFiYWItZTk5Y2IyMWQ1ZThhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Le Samouraï", 
         "score": "7/10",
         "bullets": [
