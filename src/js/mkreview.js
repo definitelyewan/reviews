@@ -1,5 +1,29 @@
 const data = {
     "reviews": [
+    {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "The Whale", 
+        "score": "9/10",
+        "bullets": [
+          "99% sure this movie takes place in one appartment",
+          "Way way too many eating montages but idk what i expected",
+          "feels bad to be man. feels bad 😔"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZDQ4Njg4YTctNGZkYi00NWU1LWI4OTYtNmNjOWMyMjI1NWYzXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "Unfrosted", 
+        "score": "3/10",
+        "bullets": [
+          "There can only be kne founder",
+          "I dont see how Kelloggs are the good guys when the rig an award show, pressure the FDA, break up a union, and steal the pop tart idea",
+          "Pretty much a big Kelloggs ad"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjIyOTBmNzEtY2YxNC00YzgyLTgxZGYtOWM4NTYwNmZkNzA1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+      },
       {
         "when": 2024,
         "mediaType": "M",
