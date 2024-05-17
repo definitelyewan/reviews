@@ -18,7 +18,7 @@ const data = {
         "name": "Unfrosted", 
         "score": "3/10",
         "bullets": [
-          "There can only be kne founder",
+          "There can only be one founder",
           "I dont see how Kelloggs are the good guys when the rig an award show, pressure the FDA, break up a union, and steal the pop tart idea",
           "Pretty much a big Kelloggs ad"
         ],
