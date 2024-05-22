@@ -3,6 +3,16 @@ const data = {
     {
         "when": 2024,
         "mediaType": "M",
+        "name": "L.A. Confidential", 
+        "score": "6/10",
+        "bullets": [
+          "A movie where Russle Crow is skinny and doesnt die at the end? not possible",
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDQ2YzEyZGItYWRhOS00MjBmLTkzMDUtMTdjYzkyMmQxZTJlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    },
+    {
+        "when": 2024,
+        "mediaType": "M",
         "name": "The Whale", 
         "score": "9/10",
         "bullets": [
