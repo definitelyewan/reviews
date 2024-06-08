@@ -2,6 +2,18 @@ const data = {
     "reviews": [
     {
         "when": 2024,
+        "mediaType": "T",
+        "name": "Queen Charlotte: A Bridgerton Story", 
+        "sub": "Season 1",
+        "score": "3/10",
+        "bullets": [
+          "Watch Bridgerton instead its better",
+          "The lore was not worth"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNWYwNzhhNzMtMWM2Yi00NzdlLTgxNmUtYWI2YTdiNmFmNzQwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "when": 2024,
         "mediaType": "M",
         "name": "L.A. Confidential", 
         "score": "6/10",
