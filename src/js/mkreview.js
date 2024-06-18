@@ -1,5 +1,34 @@
 const data = {
     "reviews": [
+      {
+        "when": 2024,
+        "mediaType": "G",
+        "name": "Helldivers 2", 
+        "sub": "[PC]",
+        "score": "7/10",
+        "bullets": [
+          "The ministry of truth is always on the right side of history",
+          "pretty much just left 4 dead but if it was set in the Starship Troopers universe",
+          "Lots of different enemy types, stratagems, armours, and wepons",
+          "Probably the only good live service game",
+
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZGQ2YWExYTctYjg3Zi00ZWM4LThjZTgtNzY4ZGUzZTRjNzlmXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "T",
+        "name": "Bridgerton", 
+        "sub": "Season 1 - 3",
+        "score": "3/10",
+        "bullets": [
+          "Season 1 is way too long and season 2 is the only good one",
+          "Not enough fetherington slander 😔",
+          "francesca is an absolute rocket to bad every time shes on screen its like watching paint dry",
+
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYjIxMzZhMTMtNDQ1Mi00OTMwLTk2M2ItYzA0YmNjNDFlOTdhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    },
     {
         "when": 2024,
         "mediaType": "T",
