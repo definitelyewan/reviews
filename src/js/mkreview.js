@@ -20,7 +20,7 @@ const data = {
         "mediaType": "T",
         "name": "Bridgerton", 
         "sub": "Season 1 - 3",
-        "score": "3/10",
+        "score": "4/10",
         "bullets": [
           "Season 1 is way too long and season 2 is the only good one",
           "Not enough fetherington slander 😔",
