@@ -23,7 +23,8 @@ const data = {
         "score": "4/10",
         "bullets": [
           "Season 1 is way too long and season 2 is the only good one",
-          "Not enough fetherington slander 😔",
+          "Not enough Fetherington slander 😔",
+          "If Eloise wasnt in this show it would actually get like a 1",
           "francesca is an absolute rocket to bad every time shes on screen its like watching paint dry",
 
         ],
