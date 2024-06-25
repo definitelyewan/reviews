@@ -2,6 +2,17 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "M",
+        "name": "Inside Out 2",
+        "score": "6/10",
+        "bullets": [
+          "The movie equivalent of a walking sim"
+
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTc1MDQ3NjAtOWEzMi00YzE1LWI2OWUtNjQ0OWJkMzI3MDhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "G",
         "name": "Helldivers 2", 
         "sub": "[PC]",
