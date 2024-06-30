@@ -4,7 +4,7 @@ const data = {
         "when": 2024,
         "mediaType": "G",
         "name": "Hollow Knight",
-        "sub" : "[switch]
+        "sub" : "[switch]",
         "score": "7/10",
         "bullets": [
           "The fact that you dont start with a dash and move at the pace of a snail is horrendous",
