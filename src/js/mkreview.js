@@ -5,7 +5,7 @@ const data = {
         "mediaType": "G",
         "name": "Hollow Knight",
         "sub" : "[switch]",
-        "score": "7/10",
+        "score": "6/10",
         "bullets": [
           "The fact that you dont start with a dash and move at the pace of a snail is horrendous",
           "inconsistent bench and ability frames are annoying",
