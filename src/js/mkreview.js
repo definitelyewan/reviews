@@ -2,6 +2,23 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "G",
+        "name": "Hollow Knight",
+        "sub" : "[switch]
+        "score": "7/10",
+        "bullets": [
+          "The fact that you dont start with a dash and move at the pace of a snail is horrendous",
+          "inconsistent bench and ability frames are annoying",
+          "Not a game worth glazing",
+          "Good bosses and aesthetics",
+          "so so soundtrack",
+          "probably like a 5 or 4 if the endgame content didnt exist"
+
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYjRjN2RlOGMtZmUyZC00MzQ2LWI2MGUtNWM2ZTIzZmE3OGY4XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "M",
         "name": "Inside Out 2",
         "score": "5/10",
