@@ -2,6 +2,17 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "M",
+        "name": "Kinds of Kindness",
+        "score": "4/10",
+        "bullets": [
+          "Not all stories are equally as good 2 > 1 > 3",
+          "Someone ahould just make a full movie like part 2",
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYzcwNDM0NTEtNWQyMy00MWQ5LWJkNTktYzdhZmExNThiODM5XkEyXkFqcGc@._V1_QL75_UX820_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "G",
         "name": "Hollow Knight",
         "sub" : "[switch]",
