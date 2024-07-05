@@ -4,10 +4,10 @@ const data = {
         "when": 2024,
         "mediaType": "G",
         "name": "Baldur's Gate 3",
-        "sub" : "PC",
+        "sub" : "[PC]",
         "score": "9/10",
         "bullets": [
-          "I dont think there is a scenario the devs didnt think off",
+          "I dont think there is a scenario the devs didnt think of",
           "Really wierd difficulty spikes",
           "Legit no bad quests and story lines",
           "I still have no idea what half the stats and modifiers do"
@@ -32,7 +32,7 @@ const data = {
         "name": "The Man from Toronto",
         "score": "2/10",
         "bullets": [
-          "Kevin Heart slop",
+          "Kevin Hart slop",
           "They keep pronouncing Toronto wrong",
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BZDM2YjA2ZjAtMmZmMy00NDhjLWJjYWYtYjc4ZGY0YzUzOTMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
@@ -44,7 +44,7 @@ const data = {
         "score": "4/10",
         "bullets": [
           "Not all stories are equally as good 2 > 1 > 3",
-          "Someone ahould just make a full movie like part 2",
+          "Someone should just make a full movie like part 2",
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BYzcwNDM0NTEtNWQyMy00MWQ5LWJkNTktYzdhZmExNThiODM5XkEyXkFqcGc@._V1_QL75_UX820_.jpg"
       },
