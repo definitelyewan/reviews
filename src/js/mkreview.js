@@ -2,6 +2,43 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "G",
+        "name": "Baldur's Gate 3",
+        "sub" : "PC",
+        "score": "9/10",
+        "bullets": [
+          "I dont think there is a scenario the devs didnt think off",
+          "Really wierd difficulty spikes",
+          "Legit no bad quests and story lines",
+          "I still have no idea what half the stats and modifiers do"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMzc4NGI0NGYtYTkxNy00MzcxLWExOWQtNWJkODg3NDlhODIxXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "T",
+        "name": "The Bear",
+        "sub" : "Season 3",
+        "score": "7/10",
+        "bullets": [
+          "More yelling yippie",
+          "Has some artsy music video type episodes"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjE0MjBkNWMtOGUzZS00MzMyLTgwYjgtNTBkZWQ5YWRlMmM1XkEyXkFqcGc@._V1_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "The Man from Toronto",
+        "score": "2/10",
+        "bullets": [
+          "Kevin Heart slop",
+          "They keep pronouncing Toronto wrong",
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZDM2YjA2ZjAtMmZmMy00NDhjLWJjYWYtYjc4ZGY0YzUzOTMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "M",
         "name": "Kinds of Kindness",
         "score": "4/10",
