@@ -10,7 +10,7 @@ const data = {
           "Some of the most unsettling/tense shots in a movie",
           "Everyone is just so strange",
           "The past and present transition is pretty neat",
-          "What are the odds someone is just walking around in the background idk but it sure feels like someome constantly is"
+          "What are the odds someone is just walking around in the background idk but it sure feels like someone constantly is"
         ],
         "cover": "https://m.media-amazon.com/images/M/MV5BZDQxMWZiNTgtZjcxYS00ZTBhLThlNjItMDQxMDI0NjRiMDFiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
       },
