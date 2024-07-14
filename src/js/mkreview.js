@@ -2,6 +2,32 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "M",
+        "name": "Longlegs",
+        "score": "8/10",
+        "bullets": [
+          "Great mystery but so so answers",
+          "Some of the most unsettling/tense shots in a movie",
+          "Everyone is just so strange",
+          "The past and present transition is pretty neat",
+          "What are the odds someone is just walking around in the background idk but it sure feels like someome constantly is"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZDQxMWZiNTgtZjcxYS00ZTBhLThlNjItMDQxMDI0NjRiMDFiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "Madame Web",
+        "score": "3/10",
+        "bullets": [
+          "The main bad guy is 100% dubbed",
+          "Actually makes no sense whatsoever",
+          "Dakota Johnson kidnaps Sidney and the gang and their all just cool with it?"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYWJkY2Q4NmYtOGRlMi00YTg5LWE2ZmQtY2NkYzk3YTRmNWZlXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "G",
         "name": "Baldur's Gate 3",
         "sub" : "[PC]",
