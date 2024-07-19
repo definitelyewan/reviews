@@ -2,6 +2,19 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "T",
+        "name": "The Boys",
+        "sub" : "Season 3",
+        "score": "6/10",
+        "bullets": [
+          "The first half of this season is kinda a setup season",
+          "Got some side quest ass moments",
+          "Episodes 7 and 8 are actually some of the greatest in the entire show"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BYTY2ZjYyNGUtZGVkZS00MDNhLWIwMjMtZDk4MmQ5ZWI0NTY4XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UY400_.jpg 320w, https://m.media-amazon.com/images/M/MV5BYTY2ZjYyNGUtZGVkZS00MDNhLWIwMjMtZDk4MmQ5ZWI0NTY4XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UY600_.jpg 480w, https://m.media-amazon.com/images/M/MV5BYTY2ZjYyNGUtZGVkZS00MDNhLWIwMjMtZDk4MmQ5ZWI0NTY4XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UY337_.jpg 269w, https://m.media-amazon.com/images/M/MV5BYTY2ZjYyNGUtZGVkZS00MDNhLWIwMjMtZDk4MmQ5ZWI0NTY4XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UY576_.jpg 460w, https://m.media-amazon.com/images/M/MV5BYTY2ZjYyNGUtZGVkZS00MDNhLWIwMjMtZDk4MmQ5ZWI0NTY4XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UX1080_.jpg 1080w, https://m.media-amazon.com/images/M/MV5BYTY2ZjYyNGUtZGVkZS00MDNhLWIwMjMtZDk4MmQ5ZWI0NTY4XkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UY1350_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "M",
         "name": "Longlegs",
         "score": "8/10",
