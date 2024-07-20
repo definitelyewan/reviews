@@ -4,7 +4,7 @@ const data = {
         "when": 2024,
         "mediaType": "T",
         "name": "The Boys",
-        "sub" : "Season 3",
+        "sub" : "Season 4",
         "score": "6/10",
         "bullets": [
           "The first half of this season is kinda a setup season",
