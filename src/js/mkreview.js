@@ -2,6 +2,18 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "M",
+        "name": "Mad God",
+        "score": "4/10",
+        "bullets": [
+          "This movie looks absolutely insane",
+          "Some absolutely crazy stop motion",
+          "Needs a 30min explained video because i got no idea what happens in this movie"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BZjljZGI5ZTAtMmIwMC00N2ZiLWEzNmYtMDQ1MzFiNDI4ZDllXkEyXkFqcGdeQXVyMTM2MzgyOTU@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "T",
         "name": "The Boys",
         "sub" : "Season 4",
