@@ -2,7 +2,7 @@ const data = {
     "reviews": [
       {
         "when": 2024,
-        "mediaType": "M",
+        "mediaType": "T",
         "name": "Smiling Friends",
         "sub": "Season 2",
         "score": "7/10",
