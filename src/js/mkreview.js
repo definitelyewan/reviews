@@ -3,6 +3,31 @@ const data = {
       {
         "when": 2024,
         "mediaType": "M",
+        "name": "Smiling Friends",
+        "sub": "Season 2",
+        "score": "7/10",
+        "bullets": [
+          "All i wanna do is smoke weed, fill my belly with diet soda, and play burnout revenge for the PS2",
+          "Snowman and president episodes are super weak"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNmFkOWUwYmYtNTBmNC00NWU4LWJjNjMtOGNkNDQ1Y2ExODc1XkEyXkFqcGdeQXVyMTY4OTkzNjg2._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
+        "name": "Deadpool & Wolverine",
+        "score": "5/10",
+        "bullets": [
+          "Has the first live action adaptation of Twisted Fate",
+          "C tier marvel villain",
+          "Good buddy adventure movie",
+          "I remember liking the other 2 more but i havent seen them in a long time"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BNzRiMjg0MzUtNTQ1Mi00Y2Q5LWEwM2MtMzUwZDU5NmVjN2NkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "M",
         "name": "Mad God",
         "score": "4/10",
         "bullets": [
