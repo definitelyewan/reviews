@@ -3,6 +3,19 @@ const data = {
       {
         "when": 2024,
         "mediaType": "T",
+        "name": "House of the Dragon",
+        "sub": "Season 2",
+        "score": "7/10",
+        "bullets": [
+          "Would be an 8 but the ship building arc is like 25% of each episode",
+          "I hope this ship they built gets destroyed in the first episode of the 3rd season",
+          "Kinda like prime game of thrones but with plot armour"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "when": 2024,
+        "mediaType": "T",
         "name": "Smiling Friends",
         "sub": "Season 2",
         "score": "7/10",
