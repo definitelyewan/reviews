@@ -2,6 +2,18 @@ const data = {
     "reviews": [
       {
         "when": 2024,
+        "mediaType": "M",
+        "name": "Alien: Romulus",
+        "score": "4/10",
+        "bullets": [
+          "idk I liked it better before it became an action movie",
+          "I don't like the gray man",
+          "Quite liked the tech and aesthetic of the ships"
+        ],
+        "cover": "https://m.media-amazon.com/images/M/MV5BMDU0NjcwOGQtNjNjOS00NzQ3LWIwM2YtYWVmODZjMzQzN2ExXkEyXkFqcGc@._V1_.jpg"
+      },
+      {
+        "when": 2024,
         "mediaType": "T",
         "name": "House of the Dragon",
         "sub": "Season 2",
